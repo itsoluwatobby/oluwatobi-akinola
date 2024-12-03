@@ -17,7 +17,7 @@ export default function Hero({ appName, workPlace }: HeroProps) {
         </article>
 
         <p className="text-slate-300 tracking-wide leading-7">
-        I'm a software developer specialized in building skilled web applications. Presently building user centered applications and services at <span className="text-[#a5f3fc]">{workPlace}</span> and I'm committed to delivering high-quality solutions.
+        I'm a software developer specializing in building web applications and application servers. Presently building user centered applications and services at <span className="text-[#a5f3fc]">{workPlace}</span> and I'm committed to delivering high-quality solutions.
         </p>
       </div>
     </div>
