@@ -36,28 +36,33 @@
   text-shadow: -1px -1px 0 #d6d6d6, 1px 1px 0 #d6d6d6, 1px -1px 0 #d6d6d6, -1px 1px 0 #d6d6d6;
 }
 
-/* Creating the 3D effect using text shadows */
-/* .three-d-text::before {
-  content: attr(data-text);
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  color: #ff3d00;
-  z-index: -1;
-  text-shadow: -1px -1px 0 #222, 1px 1px 0 #222, 1px -1px 0 #222, -1px 1px 0 #222;
+.slide-in {
+  animation: slideIn 1s ease-in-out;
 }
 
-.three-d-text::after {
-  content: attr(data-text);
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  color: #e8e8e8;
-  z-index: -2;
-  text-shadow: -1px -1px 0 #222, 1px 1px 0 #222, 1px -1px 0 #222, -1px 1px 0 #222;
-} */
+.slide-out {
+  animation: slideOut 1s ease-in-out;
+}
 
 /* AnimatedPage.css */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

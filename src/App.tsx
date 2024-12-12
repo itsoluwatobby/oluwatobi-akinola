@@ -3,15 +3,18 @@ import AppLayout from './layout/AppLayout';
 import Dashboard from './pages/Dashboard';
 import { useAppContext } from './hooks/useAppContext';
 import { Toaster } from 'react-hot-toast';
-import { Header } from './components';
+import { Header, Modal } from './components';
 import { Colors } from './utils/colors';
+import { useState } from 'react';
 
 function App() {
   const { theme, appName } = useAppContext();
+  const [toggle, setToggle] = useState(false);
 
   return (
     <main className={`customScrollBar page-fade-in ${theme === 'light' ? 'bg-white' : `${Colors.navy} text-white`} w-full h-screen flex flex-col transition-colors overflow-y-scroll`}>
-      <Header appName={appName} />
+      <Header appName={appName} setToggle={setToggle} />
+      <Modal toggle={toggle} setToggle={setToggle} />
 
       <Routes>
         <Route path='/' element={<AppLayout />}>

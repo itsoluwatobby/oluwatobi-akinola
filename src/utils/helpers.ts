@@ -31,10 +31,6 @@ class Helper {
     }).format(new Date(date));
   }
 
-  public formatPrice(price:number=0, decimalPlace=0) {
-    return price.toFixed(decimalPlace).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
-  }
-
   jsonParseValue = <T>(value: string): T => {
     try {
       return JSON.parse(value) as T;

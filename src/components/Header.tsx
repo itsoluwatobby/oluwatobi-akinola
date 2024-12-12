@@ -1,20 +1,16 @@
 import React, { useState } from 'react'
-import { helper } from '../utils';
+import { helper, ModalTags, hoverEffects } from '../utils';
 import { Colors } from '../utils/colors';
+import NavButtons from './Navs';
+import ResumeButton from './ResumeButton';
 
 type HeaderProps = {
   appName: string;
+  setToggle: React.Dispatch<React.SetStateAction<boolean>>;
 }
 // 50,10 75,25 75,55 50,68 25,55 25,25
-export default function Header({ appName }: HeaderProps) {
+export default function Header({ appName, setToggle }: HeaderProps) {
   const [hoverIndex, setHoverIndex] = useState(0);
-
-  const hoverEffects = [
-    'hover:-translate-x-1 hover:-translate-y-0.5',
-    'hover:translate-x-1 hover:-translate-y-0.5',
-    'hover:-translate-x-1 hover:translate-y-0.5',
-    'hover:translate-x-1 hover:translate-y-0.5'
-  ];
 
   const modifyHoverCount = () => {
     const randomIndex = Math.floor(Math.random() * hoverEffects.length);
@@ -22,7 +18,7 @@ export default function Header({ appName }: HeaderProps) {
   }
 
   return (
-    <header className={`sticky top-0 w-full pl-1 pr-4 pt-7 pb-4 ${Colors.navy} flex items-center justify-between h-20 z-10 shadow-md`}>
+    <header className={`sticky top-0 w-full pl-1 pr-4 pt-7 pb-4 ${Colors.navy} flex items-center justify-between h-20 z-10 shadow-md transition-transform lg:px-10`}>
       <div className='relative'>
         <svg width="63" height="58"
           onMouseEnter={modifyHoverCount}
@@ -39,9 +35,24 @@ export default function Header({ appName }: HeaderProps) {
         </svg>
       </div>
 
-      <div className='h-10 w-10 cursor-pointer flex gap-1 p-1'>
+      <ul className='hidden md:flex items-center gap-x-6 list-none'>
+        {
+          ModalTags.map((link, bullet) => (
+            <NavButtons
+              link={link}
+              bullet={bullet + 1}
+              classNames='gap-x-1'
+            />
+          ))
+        }
+        <ResumeButton />
+      </ul>
+
+      <button
+        onClick={() => setToggle(prev => !prev)}
+        className='h-10 w-10 cursor-pointer md:hidden flex gap-1 p-1'>
         <span className={`flex justify-end transition-transform relative h-[2px] w-[1.7rem] bg-cyan-200 before:absolute before:-top-2.5 before:content-[""] before:h-[2px] before:w-9 before:bg-cyan-200 after:absolute after:-bottom-2.5 after:content-[""] after:h-[2px] after:w-[1.4rem] after:bg-cyan-200`}></span>
-      </div>
+      </button>
     </header>
   )
 }

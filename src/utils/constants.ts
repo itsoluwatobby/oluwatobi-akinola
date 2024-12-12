@@ -1,12 +1,8 @@
-export enum CURRENCY {
-  EURO = "£",
-  NAIRA = "₦",
-  DOLLAR = "$",
-};
+export const ModalTags = ['about', 'experience', 'work', 'contact'];
 
-export enum TransactionStatus {
-  Failed = 'Failed',
-  Pending = 'Pending',
-  Success = 'Success',
-}
-
+export const hoverEffects = [
+  'hover:-translate-x-1 hover:-translate-y-0.5',
+  'hover:translate-x-1 hover:-translate-y-0.5',
+  'hover:-translate-x-1 hover:translate-y-0.5',
+  'hover:translate-x-1 hover:translate-y-0.5'
+];
