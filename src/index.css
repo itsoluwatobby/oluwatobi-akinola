@@ -23,6 +23,11 @@
   background: #1f355a;
 }
 
+.fluid-text {
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  line-height: 2.6rem;
+}
+
 /* 3D text styling */
 .three-d-text {
   font-family: 'Arial', sans-serif;
@@ -74,4 +79,10 @@
 
 .page-fade-in {
   animation: fadeIn 1s ease-in-out;
+}
+
+@media (min-width: 968px) {
+  .fluid-text {
+    line-height: 3rem;
+  }
 }
