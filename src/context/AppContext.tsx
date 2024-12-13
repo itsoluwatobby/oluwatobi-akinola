@@ -4,7 +4,12 @@ import { AppContext } from './context';
 export const AppContextDataProvider = (
   { children }: { children: React.ReactNode },
 ) => {
-  const [appName] = useState('Oluwatobi Akinola');
+  const [appInfo] = useState(
+    {
+      name: 'Oluwatobi Akinola',
+      email: 'itsoluwatobby@gmail.com',
+    },
+  );
   const [theme, setTheme] = useState<Theme>(
     window.matchMedia
       && window.matchMedia(
@@ -14,7 +19,7 @@ export const AppContextDataProvider = (
   // const [tabName, setTabName] = useState<SideTabs>(SideTabEnum.Transaction);
 
   const value = {
-    theme, setTheme, appName,
+    theme, setTheme, appInfo,
   };
 
   return (

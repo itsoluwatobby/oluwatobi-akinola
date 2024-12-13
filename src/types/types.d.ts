@@ -4,7 +4,7 @@ type ScrollDirection = 'left' | 'right'
 
 type Theme = 'light' | 'dark'
 type AppContextProps = {
-  appName: string;
+  appInfo: { name: string, email: string };
   theme: Theme;
   // toggleModal: boolean;
   // setToggleModal: React.Dispatch<React.SetStateAction<boolean>>;

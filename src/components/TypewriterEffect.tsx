@@ -4,11 +4,12 @@ type TypewriterEffectProps = {
   text: string;
   delay?: number;
   start?: 'BEGIN' | 'END';
+  repetition?: 'once' | 'continuous';
 }
 
 export default function TypewriterEffect(
   {
-    text, delay=0.5, start='END',
+    text, delay=0.5, start='END', repetition = 'once',
   }: TypewriterEffectProps
 ) {
   const [typeWriterText, setTypewriterText] = useState<string>('')
@@ -25,12 +26,14 @@ export default function TypewriterEffect(
         if(index <= text.length){
           setTypewriterText(text.substring(0, index))
           index++
-        }
-        else {
-            setTypingPosition('BACKWARDS')
-            clearInterval(timeoutId)
+        } else {
+            if (repetition === 'once') clearInterval(timeoutId);
+            else {
+              setTypingPosition('BACKWARDS');
+              clearInterval(timeoutId);
+            }
           }
-        }, Timer_Delay)
+        }, Timer_Delay);
       }
     else if(typingPosition === 'BACKWARDS'){
       index = text.length - 1
@@ -40,18 +43,22 @@ export default function TypewriterEffect(
           index--
         }
         else {
-          setTypingPosition('FORWARDS')
-          clearInterval(timeoutId)
+          if (repetition === 'once') clearInterval(timeoutId);
+          else {
+            setTypingPosition('FORWARDS');
+            clearInterval(timeoutId);
+          }
         }
-      }, Timer_Delay)
+      }, Timer_Delay);
     }
     else {
-      setTypewriterText('')
-      index = 0
-      clearInterval(timeoutId)
+      setTypewriterText('');
+      index = 0;
+      clearInterval(timeoutId);
     }
+
     return () => clearInterval(timeoutId)
-  }, [delay, text, start, typingPosition])
+  }, [delay, text, start, typingPosition, repetition])
 
   return (
     <p className='duration-300 transition-all cursor-default'>

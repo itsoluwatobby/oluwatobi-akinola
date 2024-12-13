@@ -34,7 +34,7 @@ export default function About() {
               <li key={tech}
                 className="w-fit whitespace-nowrap flex items-center gap-x-2 font-mono text-gray-400 last:absolute last:-bottom-7"
               >
-                <MdOutlineArrowRight className="text-cyan-500 text-xl" />
+                <MdOutlineArrowRight className="text-cyan-500 text-xl mobile:text-base" />
                 {tech}
               </li>
             ))

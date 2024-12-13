@@ -8,12 +8,12 @@ import { Colors } from './utils/colors';
 import { useState } from 'react';
 
 function App() {
-  const { theme, appName } = useAppContext();
+  const { theme, appInfo } = useAppContext();
   const [toggle, setToggle] = useState(false);
 
   return (
     <main className={`customScrollBar page-fade-in ${theme === 'light' ? 'bg-white' : `${Colors.navy} text-white`} w-full h-screen flex flex-col transition-colors overflow-y-scroll`}>
-      <Header appName={appName} setToggle={setToggle} />
+      <Header appName={appInfo.name} setToggle={setToggle} />
       <Modal toggle={toggle} setToggle={setToggle} />
 
       <Routes>

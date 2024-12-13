@@ -16,7 +16,7 @@ export default function Experience() {
         {
           workPlaces.map((place) => (
             <button
-            className="capitalize hover:text-cyan-300 hover:bg-slate-800 px5 h-9 w-28 focus:text-cyan-300 focus:outline-none ring-0 transition-colors focus:border-b-2 border-b-cyan-300 border-separate"
+            className="capitalize hover:text-cyan-300 hover:bg-slate-800 px5 h-9 sm:w-28 w-24 focus:text-cyan-300 focus:outline-none ring-0 transition-colors focus:border-b-2 border-b-cyan-300 border-separate"
             key={place}
             >
               {place}
