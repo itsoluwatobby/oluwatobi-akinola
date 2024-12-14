@@ -25,7 +25,7 @@ export default function About() {
         </p>
       </div>
 
-      <div className='mt-4 text-slate-300 text-base flex flex-col md:p-6 md:m-auto gap-y-5'>
+      <div className='self-stat mt-4 text-slate-300 text-base flex flex-col md:p-6 gap-y-5 w-full '>
         <p>Here are few technologies I've worked with</p>
 
         <ol className="grid grid-cols-2 gap-1 w-full relative justify-between">

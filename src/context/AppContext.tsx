@@ -8,6 +8,7 @@ export const AppContextDataProvider = (
     {
       name: 'Oluwatobi Akinola',
       email: 'itsoluwatobby@gmail.com',
+      workPlace: 'DevHeit',
     },
   );
   const [theme, setTheme] = useState<Theme>(

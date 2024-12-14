@@ -38,6 +38,7 @@ export default function Modal(
           {
             ModalTags.map((link, bullet) => (
               <NavButtons
+                key={link}
                 link={link}
                 bullet={bullet + 1}
                 classNames='flex-col gap-1'

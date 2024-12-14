@@ -39,9 +39,10 @@ export default function Header({ appName, setToggle }: HeaderProps) {
         {
           ModalTags.map((link, bullet) => (
             <NavButtons
+              key={link}
               link={link}
               bullet={bullet + 1}
-              classNames='gap-x-1'
+              classNames='gap-x-1 text-sm'
             />
           ))
         }
