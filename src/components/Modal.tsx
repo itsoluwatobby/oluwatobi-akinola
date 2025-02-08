@@ -1,6 +1,6 @@
-import { ModalTags } from '../utils'
+import { Applinks, ModalTags } from '../utils'
 import NavButtons from './Navs';
-import ResumeButton from './ResumeButton';
+import ResumeButton from './Button';
 import { Colors } from '../utils/colors';
 import { LiaTimesSolid } from 'react-icons/lia';
 
@@ -46,7 +46,7 @@ export default function Modal(
             ))
           }
           <div className='mt-10 self-center'>
-            <ResumeButton />
+            <ResumeButton name='Resume' link={Applinks.resume} />
           </div>
         </ul>
       </div>

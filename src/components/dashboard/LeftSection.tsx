@@ -1,6 +1,7 @@
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { IconType } from "react-icons";
 import { RiBloggerLine, RiTwitterXFill } from "react-icons/ri";
+import { Applinks } from "../../utils";
 
 type SocialType = {
   link: string,
@@ -11,10 +12,10 @@ type SocialType = {
 export default function LeftSection() {
 
   const Socials: SocialType[] = [
-    { link: 'https://github.com/itsoluwatobby', icon: FiGithub, name: 'Github' },
-    { link: 'https://linkedin.com/in/itsoluwatobby', icon: FiLinkedin, name: 'LinkedIn' },
-    { link: 'https://twitter.com/itsoluwatobby', icon: RiTwitterXFill, name: 'Twitter' },
-    { link: 'https://revolving.vercel.app', icon: RiBloggerLine, name: 'Blog' },
+    { link: Applinks.github, icon: FiGithub, name: 'Github' },
+    { link: Applinks.linkedIn, icon: FiLinkedin, name: 'LinkedIn' },
+    { link: Applinks.twitter, icon: RiTwitterXFill, name: 'Twitter' },
+    { link: Applinks.blog, icon: RiBloggerLine, name: 'Blog' },
   ];
 
   return (

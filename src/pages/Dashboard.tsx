@@ -4,6 +4,9 @@ import {
   Experience,
   LeftSection,
   RightSection,
+  ProjectView,
+  WhatNext,
+  Footer,
 } from "../components/dashboard";
 import { useAppContext } from "../hooks";
 import { IoMdArrowUp } from "react-icons/io";
@@ -32,6 +35,12 @@ export default function Dashboard() {
           <About />
 
           <Experience />
+
+          <ProjectView />
+
+          <WhatNext />
+
+          <Footer />
 
         </section>
 

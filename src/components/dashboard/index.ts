@@ -3,6 +3,9 @@ import About from "./About";
 import LeftSection from "./LeftSection";
 import RightSection from "./RightSection";
 import Experience from "./Experience";
+import ProjectView from "./ProjectView";
+import WhatNext from "./WhatNext";
+import Footer from "./Footer";
 
 export {
   Hero,
@@ -10,4 +13,7 @@ export {
   Experience,
   LeftSection,
   RightSection,
+  ProjectView,
+  WhatNext,
+  Footer,
 };

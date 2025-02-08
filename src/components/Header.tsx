@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import { helper, ModalTags, hoverEffects } from '../utils';
+import { helper, ModalTags, hoverEffects, Applinks } from '../utils';
 import { Colors } from '../utils/colors';
 import NavButtons from './Navs';
-import ResumeButton from './ResumeButton';
+import ResumeButton from './Button';
 
 type HeaderProps = {
   appName: string;
@@ -46,7 +46,7 @@ export default function Header({ appName, setToggle }: HeaderProps) {
             />
           ))
         }
-        <ResumeButton />
+        <ResumeButton name='Resume' link={Applinks.resume} />
       </ul>
 
       <button
