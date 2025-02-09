@@ -25,21 +25,33 @@ export default function About() {
         </p>
       </div>
 
-      <div className='self-stat mt-4 text-slate-300 text-base flex flex-col md:p-6 gap-y-5 w-full '>
+      <div className='self-stat mt-4 text-slate-300 text-sm flex flex-col md:p-6 gap-y-5 w-full '>
         <p>Here are few technologies I've worked with</p>
 
-        <ol className="grid grid-cols-2 gap-1 w-full relative justify-between">
+        <div className="grid grid-cols-2 gap-1 w-full justify-between">
           {
-            technologies.map((tech) => (
-              <li key={tech}
-                className="w-fit whitespace-nowrap flex items-center gap-x-2 font-mono text-gray-400 last:absolute last:-bottom-7"
+            technologies?.slice(0,8).map((tech) => (
+              <div key={tech}
+                className="flex items-center gap-x-2 font-mono text-gray-400 text-pretty"
               >
-                <MdOutlineArrowRight className="text-cyan-500 text-xl mobile:text-base" />
+                <MdOutlineArrowRight className="text-cyan-500 flex-none text-xl mobile:text-base" />
                 {tech}
-              </li>
+              </div>
             ))
           }
-        </ol>
+
+          <div className="flex flex-col gap-1.5 w-full whitespace-nowrap textpretty text-gray-400">
+            <p className="flex items-center flex-nowrap font-mono">
+              <MdOutlineArrowRight className="text-cyan-500 flex-none text-xl mobile:text-base" />
+              {technologies?.at(-2)}
+            </p>
+            <p className="flex items-center flex-nowrap font-mono">
+              <MdOutlineArrowRight className="text-cyan-500 flex-none text-xl mobile:text-base" />
+              {technologies?.at(-1)}
+            </p>
+          </div>
+
+        </div>
       </div>
     </section>
   )

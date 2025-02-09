@@ -29,5 +29,9 @@ export default {
       minMobile: {'max': '280px'},
     },
   },
-  plugins: [],
+  plugins: [
+    function({ addVariant })  {
+      addVariant('2nd-to-last', '&:nth-last-child(2)');
+    },
+  ],
 }

@@ -21,7 +21,7 @@ export default function WorkDetails({ work, prevId }: WorkDetailsProps) {
             className="flex gap-4"
             >
               <span className="sm:block hidden text-cyan-400">{'>'}</span>
-              <p>{con}</p>
+              <p className="">{con}</p>
             </div>
           ))
         }
