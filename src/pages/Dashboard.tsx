@@ -19,12 +19,12 @@ export default function Dashboard() {
   );
 
   return (
-    <div className='h-auto w-full flex flex-col'>
+    <div className='h-auto w-full flexflex-col'>
       <div className="w-full flex justify-between">
         {/* LEFT */}
         <LeftSection />
 
-        <section className="customScrollBar flex-auto flex flex-col px-10 mobile:px-6 md:px-4 lg:px-14 md:overflow-y-scroll">
+        <section className="customScrollBar flex-auto flex flex-col px-10 mobile:px-4 lg:px-20 overflow-y-scroll">
       
           <Hero 
             appName={appInfo.name}

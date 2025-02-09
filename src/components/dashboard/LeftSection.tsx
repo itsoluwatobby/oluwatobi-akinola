@@ -19,7 +19,7 @@ export default function LeftSection() {
   ];
 
   return (
-    <aside className="flex-none hidden sticky top-20 bottom-0 h-[calc(100vh-85px)] md:flex justify-end flex-col lg:w-28 md:w-16">
+    <aside className="flex-none hidden sticky top-20 bottom-0 h-[calc(100vh-85px)] sm:flex justify-end flex-col lg:w-28 md:w-16 sm:w-12">
       <div className="relative flex flex-col items-center justify-end gap-8 h-[19.5rem]">
         <div className='flex flex-col gap-8 h-fit'>
           {

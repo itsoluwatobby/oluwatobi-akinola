@@ -38,3 +38,13 @@ type IntersectingProp = {
   isIntersecting: boolean;
   node: Element;
 }
+
+type WorkProps = {
+  id: number;
+  role: string;
+  name: string;
+  workPlace: string;
+  duration: string;
+  stack: string[];
+  content: string[];
+}

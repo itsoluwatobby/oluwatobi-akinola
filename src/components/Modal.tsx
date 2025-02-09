@@ -19,7 +19,7 @@ export default function Modal(
     <aside
       className={`md:hidden z-10 w-full h-screen ${toggle ? 'slide-in fixed right-0 flex' : 'slide-out hidden'}`}
     >
-      <div className={`${Colors.lightNavy} h-full blur-3xl flex-auto`}></div>
+      <div className={`${Colors.lightNavy} h-full opacity-50 flex-auto`}></div>
       <div className={`self-end w-72 flex items-center justify-center ${Colors.navy} h-full shadow-lg relative`}>
         
         <button
@@ -27,7 +27,7 @@ export default function Modal(
           ></button>
         <button
           onClick={() => setToggle(false)}
-          className={`z-10 w-10 h-7  rounded-md absolute top-4 right-3 grid place-content-center cursor-pointer -translate-x-0.5 -translate-y-0.5 transition-transform active:-translate-x-0 active:translate-y-0 ${Colors.navy} border border-cyan-300`}
+          className={`z-10 w-10 h-7 rounded-md absolute top-4 right-3 grid place-content-center cursor-pointer -translate-x-0.5 -translate-y-0.5 transition-transform active:-translate-x-0 active:translate-y-0 ${Colors.navy} border border-cyan-300`}
         >
           <LiaTimesSolid 
             className='cursor-pointer text-cyan-50 shadow w-full text-lg'

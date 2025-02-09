@@ -39,7 +39,7 @@ export default function Footer() {
         }
       </div>
 
-      <p className="font-mono opacity-70 text-sm">Designed & build by Oluwatobi Akinola</p>
+      <p className="font-mono opacity-70 text-sm">Designed & built by Oluwatobi Akinola</p>
     </footer>
   )
 }

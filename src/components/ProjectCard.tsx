@@ -16,7 +16,7 @@ type ProjectCardProps = {
 export default function ProjectCard({ project }: ProjectCardProps) {
  
   return (
-      <article className={`rounded-lg ${Colors.lightNavy} flex flex-col gap-5 p-8 shadow-md`}>
+      <article className={`rounded-lg ${Colors.lightNavy} flex flex-col gap-5 p-5 md:p-8 shadow-md`}>
         <a
           href={project.link}
           target="_blank"
