@@ -24,7 +24,7 @@ export default function Dashboard() {
         {/* LEFT */}
         <LeftSection />
 
-        <section className="customScrollBar flex-auto flex flex-col px-10 mobile:px-4 lg:px-20 overflow-y-scroll">
+        <section className="customScrollBar flex-auto flex flex-col px-10 maxMobile:px-4 mobile:px-4 lg:px-20 overflow-y-scroll">
       
           <Hero 
             appName={appInfo.name}

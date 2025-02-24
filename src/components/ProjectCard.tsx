@@ -24,7 +24,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
 
   return (
       <article 
-      className={`relative rounded-lg ${Colors.lightNavy} flex flex-col gap-5 p-5 md:p-8 shadow-md`}>
+      className={`relative rounded-lg ${Colors.lightNavy} flex flex-col gap-5 p-3 md:p-8 shadow-md`}>
 
         <VscOpenPreview 
         onClick={() => setOpenPreview(true)}

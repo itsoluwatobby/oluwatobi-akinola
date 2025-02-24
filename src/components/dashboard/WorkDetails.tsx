@@ -11,12 +11,13 @@ export default function WorkDetails({ work, prevId }: WorkDetailsProps) {
       <div className="flex flex-col gap-2">
         <h5 className="text-lg text-slate-200 font-medium leading-5">{work?.role} <span className="text-cyan-300 capitalize">@ {work?.workPlace}</span></h5>
         <span className="text-slate-400 text-sm font-mono">{work?.duration}</span>
-        <div className="whitespace-pre-wrap text-sm text-slate-200">
+
+        <div className="whitespace-pre-wrap flex items-center flex-wrap text-sm text-slate-200">
           Stack:
           {
             work.stack?.map((stk) => (
               <span key={stk}
-              className="ml-2 text-cyan-100"
+                className="ml-2 text-cyan-100 whitespace-nowrap"
               >{stk}</span>
             ))
           }
@@ -27,8 +28,8 @@ export default function WorkDetails({ work, prevId }: WorkDetailsProps) {
         {
           work?.content.map((con, index) => (
             <div
-            key={index}
-            className="flex gap-4"
+              key={index}
+              className="flex gap-4"
             >
               <span className="sm:block hidden text-cyan-400">{'>'}</span>
               <p className="">{con}</p>

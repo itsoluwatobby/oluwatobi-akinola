@@ -22,10 +22,10 @@
       "duration": "January 2024 - Present",
       "stack": ["nextjs", "tailwindcss", "aws", "nodejs", "websocket", "docker", "expressjs", "postgresql", "mongodb"],
       "content": [
-        "I create smooth user friendly interfaces, provide excellent server-side and client-side logic, smooth integration of web applications with APIs and external libraries, excellent at providing client-side and server-side authentication and application security.",
-        "I'm a great team player and I also excel as a standalone. When it comes to transforming designs into real world apps, I pay close attention to details and also input my contributions where necessary.",
-        "I create smooth user friendly interfaces, provide excellent server-side and client-side logic, smooth integration of web applications with APIs and external libraries, excellent at providing client-side and server-side authentication and application security.",
-        "I'm a great team player and I also excel as a standalone. When it comes to transforming designs into real world apps, I pay close attention to details and also input my contributions where necessary."
+        "Built a cross-border payment platform handling transactions across currencies, integrating third-party services for up-to-date exchange rates, ensuring accurate and efficient payment processing.",
+        "Engineered an entertainment platform at Devheit, facilitating influencer-brand collaborations by serving as a secure payment gateway. Brands remit payments to the platform, which disburses funds to influencers upon project completion, incorporating password breach protection.",
+        "Collaborated on a full-stack financial app managing user accounts and unique IDs for quick info-sharing, contributing to both frontend and backend development alongside a team.",
+        "Leveraged Socket.IO for real-time chat between brands and influencers, adopted CI/CD with Docker and GitHub automation, and deployed a microservice architecture on AWS EC2 using ECS and ECR."
       ]
     },
     {

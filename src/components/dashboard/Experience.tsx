@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import { lazy, useEffect, useState } from "react";
 import Title from "../Title";
 import data from "../../data/data.json";
@@ -11,8 +10,16 @@ export default function Experience() {
 
   useEffect(() => {
     setCurrentWork(data.workDetails[0]);
+    setPrevId(data.workDetails[0].id);
   }, [])
 
+  const handleClick = (placeId: number) => {
+    setTimeout(() => {
+      setCurrentWork(() => data.workDetails.find((work) => work.id === placeId));
+    }, 200);
+    setPrevId(placeId);
+  }
+  console.log(prevId)
   return (
     <section
       id='experience'
@@ -25,18 +32,11 @@ export default function Experience() {
       >
         <div className="sm:border-0 border-b-2 border-b-slate-600 text-slate-400 flex sm:flex-col sm:items-start justify-between items-center h-fit sm:w-fit w-full">
           {
-            data.workDetails.map((place) => (
+            data.workDetails?.map((place) => (
               <button
-                className={`capitalize hover:text-cyan-300 hover:bg-[#112240] h-9 sm:w-28 w-24 focus:text-cyan-300 focus:outline-none ring-0 transition-colors sm:text-sm font-mono sm:border-l-2 sm:border-l-gray-500 sm:focus:border-l-cyan-300 sm:pb-0 focus:border-b-2 border-l-gray-500 focus:border-b-cyan-300 ${place.id === prevId ? 'sm:border-l-cyan-300 border-b-cyan-300 text-cyan-300' : ''} tracking-wide sm:focus:border-b-0 sm:border-b-0 border-separate sm:pl-5 sm:text-start`}
+                className={`capitalize hover:text-cyan-300 hover:bg-[#112240] h-9 w-24 focus:text-cyan-300 focus:outline-none ring-0 transition-colors sm:text-sm font-mono sm:border-l-2 tracking-wide sm:border-l-gray-500 sm:focus:border-l-cyan-300 sm:pb-0 focus:border-b-2 border-l-gray-500 focus:border-b-cyan-300 ${place.id === prevId ? 'sm:border-l-cyan-300 border-b-cyan-300 text-cyan-300' : ''} sm:focus:border-b-0 sm:border-b-0 border-separate sm:pl-5 sm:text-start`}
                 key={place.id}
-                onClick={() => {
-                  setTimeout(() => {
-                    setCurrentWork(() => data.workDetails.find((work) => work.id === place.id));
-                  }, 200);
-
-                  setPrevId(place.id);
-                }
-                }
+                onClick={() => handleClick(place.id)}
               >
                 {place.name}
               </button>
