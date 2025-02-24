@@ -8,10 +8,10 @@
       "duration": "September 2024 - February 2025",
       "stack": ["nodejs", "expressjs", "mysql", "azure", "docker", "node-cron", "typescript"],
       "content": [
-        "Developed Khefue Inc., an ecommerce platform enabling users and Partners to buy/sell goods like flights, bills, and giftcards, integrating a reward-based system awarding points for purchases. Partners create multiple vendor stores tailored to their needs.",
-        "Utilized an SQL database, implemented CI/CD for development, and deployed services on Azure, ensuring scalability. Handled user authentication/authorization with role-based resource access and added password breach alerts.",
-        "Implemented comprehensive event logging and introduced cron jobs for background tasks, such as sending birthday wishes and promotion notifications, enhancing user engagement and automating platform operations.",
-        "Built a user wallet system as an alternative payment method, supporting card, wallet, points, and hybrid options (card_and_points, wallet_and_points), streamlining transactions across the platform."
+        "Developed and ecommerce platform that enables users and partners (vendors) to buy/sell good and services like flight booking, bills payment, airtime, data plans, gift cards and also implemented a point reward-based system for purchases made on the platform.",
+        "Built a user wallet system (employing the use of third-party banking services) as an alternative payment method, also included supports for card, point, card_and_points and wallet_and_points, which streamlines transactions across the platform.",
+        "Utilized an SQL database, implemented CI/CD practices during development, executed deployments on Microsoft Azure, ensuring scalability with a proxy server and load balancer for load distribution.",
+        "Proper handling of user authentication/authorization with role and permission-based resource access."
       ]
     },
     {
@@ -22,10 +22,9 @@
       "duration": "January 2024 - Present",
       "stack": ["nextjs", "tailwindcss", "aws", "nodejs", "websocket", "docker", "expressjs", "postgresql", "mongodb"],
       "content": [
-        "Built a cross-border payment platform handling transactions across currencies, integrating third-party services for up-to-date exchange rates, ensuring accurate and efficient payment processing.",
-        "Engineered an entertainment platform at Devheit, facilitating influencer-brand collaborations by serving as a secure payment gateway. Brands remit payments to the platform, which disburses funds to influencers upon project completion, incorporating password breach protection.",
-        "Collaborated on a full-stack financial app managing user accounts and unique IDs for quick info-sharing, contributing to both frontend and backend development alongside a team.",
-        "Leveraged Socket.IO for real-time chat between brands and influencers, adopted CI/CD with Docker and GitHub automation, and deployed a microservice architecture on AWS EC2 using ECS and ECR."
+        "Worked on a cross-border payment platform handling transactions across currencies, integrating third-party services for up-to-date exchange rates, ensuring accurate and efficient payment processing.",
+        "Engineered an entertainment platform that facilitates influencer-brand collaborations by serving as a secure payment gateway and helps creates visibility for micro-influencers.", 
+        "Collaborated on a full-stack financial app managing user accounts and unique IDs for quick info-sharing, contributing to both frontend and backend development alongside a team. Real-time bi-directional communication using WebSocket"
       ]
     },
     {
