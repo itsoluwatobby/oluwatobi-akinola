@@ -14,7 +14,7 @@ export default function Hero(
   return (
     <section 
     ref={observerRef}
-    className='text-base flex flex-col justify-center md:p-6 md:m-auto gap-y-5 h-[87vh] pt14'
+    className='text-base flex flex-col justify-center md:p-4 mobile:-mt- md:m-auto gap-y-5 h-[90vh]'
       id='home'
     >
       <div className='midScreen:leading-[3rem] leading-[3.5rem] tracking-wide font-mono text-cyan-200 text-xl'>

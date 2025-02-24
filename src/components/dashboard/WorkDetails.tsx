@@ -11,6 +11,16 @@ export default function WorkDetails({ work, prevId }: WorkDetailsProps) {
       <div className="flex flex-col gap-2">
         <h5 className="text-lg text-slate-200 font-medium leading-5">{work?.role} <span className="text-cyan-300 capitalize">@ {work?.workPlace}</span></h5>
         <span className="text-slate-400 text-sm font-mono">{work?.duration}</span>
+        <div className="whitespace-pre-wrap text-sm text-slate-200">
+          Stack:
+          {
+            work.stack?.map((stk) => (
+              <span key={stk}
+              className="ml-2 text-cyan-100"
+              >{stk}</span>
+            ))
+          }
+        </div>
       </div>
 
       <div className="text-sm flex flex-col gap-2 text-slate-300">

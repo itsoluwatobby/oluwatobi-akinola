@@ -11,7 +11,7 @@ export default function WhatNext() {
     >
       <Title bullet="04" page="Get In Touch" />
 
-      <p className="opacity-75 text-sm">
+      <p className="opacity-75 text-sm leading-7 pl-5">
       I’m currently looking for new opportunities and my inbox is always open. Whether you have a question or have an opportunity for me, I’ll always get back to you!
       </p>
         

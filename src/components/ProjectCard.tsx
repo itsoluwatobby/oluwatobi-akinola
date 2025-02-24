@@ -1,11 +1,17 @@
 import { FiGithub } from "react-icons/fi";
 import { Colors } from '../utils/colors';
 import { RiShareBoxLine } from "react-icons/ri";
+import { VscOpenPreview } from "react-icons/vsc";
+import ProjectPreview from "./PorjectPreview";
+import { useState } from "react";
+// import { setCustomBackgroundImage } from "../utils/styles";
 
 type ProjectCardProps = {
   project: {
     id: number;
     link: string;
+    thumbnail: string;
+    mobileThumbnail: string;
     repoLink: string;
     name: string;
     description: string;
@@ -14,9 +20,17 @@ type ProjectCardProps = {
   }
 }
 export default function ProjectCard({ project }: ProjectCardProps) {
- 
+  const [openPreview, setOpenPreview] = useState(false);
+
   return (
-      <article className={`rounded-lg ${Colors.lightNavy} flex flex-col gap-5 p-5 md:p-8 shadow-md`}>
+      <article 
+      className={`relative rounded-lg ${Colors.lightNavy} flex flex-col gap-5 p-5 md:p-8 shadow-md`}>
+
+        <VscOpenPreview 
+        onClick={() => setOpenPreview(true)}
+        className="absolute right-2 top-2 font-semibold cursor-pointer active:scale-[1.03] duration-200 text-xl transition-transform"
+        />
+
         <a
           href={project.link}
           target="_blank"
@@ -31,11 +45,11 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           <div className="flex flex-col gap-5 text-slate-300">
             <p className="text-sm">{project.description}</p>
 
-            <div className="flex items-center flex-wrap gap-x-2">
+            <div className="flex items-center text-sm flex-wrap gap-x-2">
               {
                 project?.tools.map((tool) => (
                   <span key={tool}
-                  className='capitalize relative after:absolute after:-right-1 after:content["jvmmb"]'
+                  className='capitalize relative after:absolute after:-right-1 hover:underline underline-offset-2 transition-transform text-cyan-200 after:content["jvmmb"]'
                   >{tool}</span>
                 ))
               }
@@ -55,6 +69,13 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             <RiShareBoxLine className="text-2xl text-white" />
           </a>
         </div>
+
+        <ProjectPreview
+        thumbnail={project.thumbnail}
+        mobile_thumbnail={project.mobileThumbnail}
+        openPreview={openPreview}
+        closePreview={() => setOpenPreview(false)}
+        />
 
       </article>
   )

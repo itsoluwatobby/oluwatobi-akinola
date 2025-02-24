@@ -18,7 +18,7 @@ export default function Header({ appName, setToggle }: HeaderProps) {
   }
 
   return (
-    <header className={`sticky top-0 w-full pl-1 pr-4 pt-7 pb-4 ${Colors.navy} flex items-center justify-between h-20 z-10 shadow-md transition-transform lg:px-10`}>
+    <header className={`sticky top-0 w-full pl-1 pr-4 pt-7 pb-4 ${Colors.navy} flex items-center justify-between h-20 z-20 shadow-md transition-transform lg:px-10`}>
       <div className='relative'>
         <svg width="63" height="58"
           onMouseEnter={modifyHoverCount}

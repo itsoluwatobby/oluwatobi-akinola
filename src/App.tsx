@@ -6,6 +6,7 @@ import { Toaster } from 'react-hot-toast';
 import { Header, Modal } from './components';
 import { Colors } from './utils/colors';
 import { useState } from 'react';
+import Projects from './pages/Projects';
 
 function App() {
   const { theme, appInfo } = useAppContext();
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path='/' element={<AppLayout />}>
           <Route index element={<Dashboard />} />
+          <Route path='projects' element={<Projects />} />
         </Route>
       </Routes>
 

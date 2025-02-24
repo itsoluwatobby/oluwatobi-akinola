@@ -7,6 +7,13 @@ export const hoverEffects = [
   'hover:translate-x-1 hover:translate-y-0.5'
 ];
 
+export const profileHoverEffects = [
+  'hover:-translate-x-2 hover:-translate-y-2',
+  'hover:translate-x-2 hover:-translate-y-2',
+  'hover:-translate-x-2 hover:translate-y-2',
+  'hover:translate-x-2 hover:translate-y-2'
+];
+
 export const Applinks = {
   resume: 'https://drive.google.com/file/d/1olVjzj5Z7NeT29b2Pa_xZ0MW8SVZnpB2/view?usp=drive_link',
   email: 'mailto:itsoluwatobby@gmail.com',
