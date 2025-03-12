@@ -5,6 +5,7 @@ import RightSection from "./RightSection";
 import Experience from "./Experience";
 import ProjectView from "./ProjectView";
 import WhatNext from "./WhatNext";
+import MoreProjects from "./MoreProjects";
 import Footer from "./Footer";
 
 export {
@@ -15,5 +16,6 @@ export {
   RightSection,
   ProjectView,
   WhatNext,
+  MoreProjects,
   Footer,
 };

@@ -2,7 +2,7 @@ import { Applinks, ModalTags } from '../utils'
 import NavButtons from './Navs';
 import ResumeButton from './Button';
 import { Colors } from '../utils/colors';
-import { LiaTimesSolid } from 'react-icons/lia';
+// import { LiaTimesSolid } from 'react-icons/lia';
 
 type ModalProps = {
   toggle: boolean;
@@ -11,7 +11,7 @@ type ModalProps = {
 
 export default function Modal(
   {
-    toggle, setToggle,
+    toggle,
   }: ModalProps
 ) {
 
@@ -25,14 +25,6 @@ export default function Modal(
         <button
           className={`w-10 h-7 rounded-md absolute top-4 right-3 bg-cyan-500 ${Colors.lightNavy}`}
           ></button>
-        <button
-          onClick={() => setToggle(false)}
-          className={`z-10 w-10 h-7 rounded-md absolute top-4 right-3 grid place-content-center cursor-pointer -translate-x-0.5 -translate-y-0.5 transition-transform active:-translate-x-0 active:translate-y-0 ${Colors.navy} border border-cyan-300`}
-        >
-          <LiaTimesSolid 
-            className='cursor-pointer text-cyan-50 shadow w-full text-lg'
-          />
-        </button>
         
         <ul className='flex flex-col gap-y-5 list-none h-[63%]'>
           {

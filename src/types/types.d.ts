@@ -48,3 +48,19 @@ type WorkProps = {
   stack: string[];
   content: string[];
 }
+
+type Project = {
+  id: number;
+  link: string;
+  thumbnail: string;
+  year: string;
+  mobileThumbnail: string;
+  repoLink: string;
+  name: string;
+  description: string;
+  tools: string[];
+  tag: string;
+  duration: string;
+  display: boolean;
+  role: string;
+}

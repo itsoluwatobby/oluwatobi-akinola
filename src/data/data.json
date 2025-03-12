@@ -33,36 +33,84 @@
       "name": "USAF",
       "workPlace": "United states of africa",
       "duration": "May 2022 - Dec 2022",
-      "stack": [],
+      "stack": ["nodejs", "expressjs", "mongodb", "aws", "passportjs", "typescript"],
       "content": [
-        "I create smooth user friendly interfaces, provide excellent server-side and client-side logic, smooth integration of web applications with APIs and external libraries, excellent at providing client-side and server-side authentication and application security.",
-        "I'm a great team player and I also excel as a standalone. When it comes to transforming designs into real world apps, I pay close attention to details and also input my contributions where necessary.",
-        "I'm a great team player and I also excel as a standalone. When it comes to transforming designs into real world apps, I pay close attention to details and also input my contributions where necessary."
+        "Developed a platform that allows users to create and share their thoughts, ideas, and opinions with the world. Users can also read and interact with other people's posts.",
+        "Implemented a real-time chat feature using socket.io, allowing users to communicate with each other in real-time.",
+        "Integrated a code editor (Monaco Editor) that allows users to write and run code snippets in various programming languages.",
+        "Utilized Firebase for user authentication and authorization, ensuring that users can only access resources they have permission to access."
       ]
     }
   ],
   "projects": [
     {
       "id": 1,
+      "link": "http://lovely-audios.onrender.com",
+      "repoLink": "https://github.com/itsoluwatobby/gracie-reads",
+      "thumbnail": "lovely-audio.png",
+      "mobileThumbnail": "lovely-audio-mobile.png",
+      "name": "Lovely Audios",
+      "description": "Listen to your audio books at your conveinence, with lovely audios you can listen to your favorite audio books on the go, at home, in the office or anywhere you find yourself.",
+      "tools": ["react", "tailwindcss", "tailwindcss", "cloudinary"],
+      "tag": "Featured Project",
+      "role": "fullstack",
+      "year": "2025",
+      "display": true,
+      "duration":"Dec 2024 - Feb 2025"
+    },
+    {
+      "id": 3,
+      "link": "http://khefue.com",
+      "repoLink": "",
+      "thumbnail": "",
+      "mobileThumbnail": "",
+      "name": "Khefue Inc",
+      "description": "Khefue is an ecommerce platform that enables users and partners (vendors) to buy/sell good and services like flight booking, bills payment, airtime, data plans, gift cards and also implemented a point reward-based system for purchases made on the platform.",
+      "tools": ["nodejs", "expressjs", "mysql", "azure", "docker", "node-cron", "typescript", "CI/CD"],
+      "tag": "Featured Project",
+      "role": "backend",
+      "year": "2024",
+      "display": true,
+      "duration":"Sept 2024 - Ongoing"
+    },
+    {
+      "id": 3,
+      "link": "https://revolving.vercel.app",
+      "repoLink": "https://github.com/itsoluwatobby/Revolving/tree/main/client",
+      "thumbnail": "revolving.png",
+      "mobileThumbnail": "revolving-mobile.png",
+      "name": "Revolving",
+      "description": "Revolving is a platform that allows you to create and share your thoughts, ideas, and opinions with the world. You can also read and interact with other people's posts.",
+      "tools": ["react", "socketio", "tailwindcss", "monaco-editor", "firebase"],
+      "tag": "Featured Project",
+      "role": "fullstack",
+      "year": "2023",
+      "display": true,
+      "duration":"May 2023 - Oct 2023"
+    }
+  ],
+  "moreProjects": [
+    {
+      "id": 1,
       "link": "http://wallet-first.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/wallet-first",
-      "thumbnail": "wallet-first.png",
-      "mobileThumbnail": "wallet-first-mobile.png",
       "name": "Wallet first",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sequi in nulla magnam, vero praesentium officiis, quaerat temporibus explicabo distinctio maiores nam sapiente ullam a. Aspernatur provident natus possimus tempora.",
-      "tools": ["react", "tailwind", "nodejs", "express.js"],
-      "tag": "Featured Project"
+      "description": "Wallet-First is a financial app that helps you manage your finances, track your expenses, set budgets and also save towards your financial goals.",
+      "tools": ["react", "tailwindcss", "recharts", "typescript"],
+      "role": "frontend",
+      "year": "2024",
+      "display": true
     },
     {
       "id": 2,
       "link": "https://blaze-estate.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/blaze-estate",
-      "thumbnail": "blaze-estate.png",
-      "mobileThumbnail": "blaze-estate-mobile.png",
       "name": "Blaze Estate",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sequi in nulla magnam, vero praesentium officiis, quaerat temporibus explicabo distinctio maiores nam sapiente ullam a. Aspernatur provident natus possimus tempora.",
-      "tools": ["react", "tailwind"],
-      "tag": "Featured Project"
+      "description": "A real estate platform that allows you to buy, sell, rent or lease properties. You can also list your properties for sale, rent or lease.",
+      "year": "2024",
+      "tools": ["react", "tailwindcss"],
+      "role": "frontend",
+      "display": true
     }
   ]
 }
