@@ -64,3 +64,5 @@ type Project = {
   display: boolean;
   role: string;
 }
+
+type MoreProject = Omit<Project, "thumbnail" | "mobileThumbnail" | "duration" | "tag">;

@@ -66,7 +66,7 @@
       "mobileThumbnail": "",
       "name": "Khefue Inc",
       "description": "Khefue is an ecommerce platform that enables users and partners (vendors) to buy/sell good and services like flight booking, bills payment, airtime, data plans, gift cards and also implemented a point reward-based system for purchases made on the platform.",
-      "tools": ["nodejs", "expressjs", "mysql", "sequelize", "azure", "docker", "node-cron", "typescript", "CI/CD"],
+      "tools": ["nodejs", "expressjs", "mysql", "sequelize", "azure", "docker", "node-cron", "typescript", "CI/CD", "joi-validation"],
       "tag": "Featured Project",
       "role": "backend",
       "year": "2024",
@@ -90,37 +90,36 @@
     },
     {
       "id": 4,
-      "link": "https://oluwatobiakinola-v1.onrender.com",
-      "repoLink": "https://github.com/itsoluwatobby/oluwatobi-akinola",
-      "thumbnail": "portfolio-1.png",
-      "mobileThumbnail": "portfolio-1-mobile.png",
-      "name": "Oluwatobi Akinola",
-      "description": "My personal portfolio website, where I showcase my projects, skills, and experiences. You can also contact me through the contact form on the website.",
-      "tools": ["react", "tailwindcss", "typescript"],
-      "tag": "Featured Project",
+      "link": "https://kingklass.vercel.app/",
+      "repoLink": "https://github.com/itsoluwatobby/KingKlass",
+      "thumbnail": "kingklass.png",
+      "mobileThumbnail": "kingklass-mobile.png",
+      "name": "KingKlass",
+      "description": "KingKlass is a fashion design platorm that connects fashion designers with their potential clients and also grants them the opportunity to showcase their crafts, manage orders and also track their business expenses.",
+      "tools": ["react", "typescript", "tailwindcss"],
       "role": "frontend",
-      "year": "2025",
+      "year": "2024",
       "display": true,
-      "duration":"Dec 2024 - Jan 2025"
+      "duration":"Feb 2024 - May 2024"
     }
   ],
   "moreProjects": [
     {
-      "id": 1,
+      "id": 5,
       "link": "http://lovely-audios.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/audio-book-server",
       "name": "Lovely Audios Server",
       "description": "Backend server that powers the lovely audios platform, it serves as the backend for the lovely audios platform, it handles user authentication, audio book uploads, user subscriptions and audio book streaming.",
-      "tools": ["nodejs", "expressjs", "mongodb", "javascript", "cloudinary"],
+      "tools": ["nodejs", "expressjs", "mongodb", "javascript", "cloudinary", "joi-validation"],
       "role": "backend",
       "year": "2024",
       "display": true
     },
     {
-      "id": 2,
+      "id": 6,
       "link": "http://revolving.vercel.app",
       "repoLink": "https://github.com/itsoluwatobby/Revolving/tree/main/server",
-      "name": "Revolving web server",
+      "name": "Revolving server",
       "description": "Backend server that powers the revolving platform, it serves as the backend for the revolving platform, it handles user authentication, post creation, post reading, post updating and post deletion.",
       "tools": ["nodejs", "expressjs", "mongodb", "typescript", "socketio"],
       "role": "backend",
@@ -128,7 +127,7 @@
       "display": true
     },
     {
-      "id": 3,
+      "id": 7,
       "link": "http://wallet-first.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/wallet-first",
       "name": "Wallet first",
@@ -139,18 +138,18 @@
       "display": true
     },
     {
-      "id": 4,
+      "id": 8,
       "link": "",
       "repoLink": "https://github.com/itsoluwatobby/find-my-campus",
       "name": "Find My Campus",
-      "description": "Application server that powers the Find my campus fellowship application. Built with nodejs and graphql, it serves as the backend for the application, it handles user authentication, fellowship creation, fellowship reading, fellowship updating and fellowship deletion.",
+      "description": "Application server that powers the Find my campus fellowship application. It handles user authentication, fellowship creation, fellowship reading, fellowship updating and fellowship deletion.",
       "tools": ["nodejs", "expressjs", "mongodb", "graphql", "javascript"],
       "role": "frontend",
       "year": "2024",
       "display": true
     },
     {
-      "id": 5,
+      "id": 9,
       "link": "http://whatsapp-desktop-clone.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/Chat-Application",
       "name": "Swift Chat",
@@ -161,7 +160,7 @@
       "display": true
     },
     {
-      "id": 6,
+      "id": 10,
       "link": "https://blaze-estate.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/blaze-estate",
       "name": "Blaze Estate",
@@ -172,12 +171,93 @@
       "display": true
     },
     {
-      "id": 7,
+      "id": 11,
+      "link": "http://getlinked-contest-oluwatobi.vercel.app",
+      "repoLink": "https://github.com/itsoluwatobby/Getlinked_contest",
+      "name": "Getlinked Contest",
+      "description": "Getlinked contest is a platform that allows users to create and participate in contests. Users can also vote for their favorite contest entries.",
+      "tools": ["react", "tailwindcss", "typescript"],
+      "role": "frontend",
+      "year": "2023",
+      "display": true
+    },
+    {
+      "id": 12,
+      "link": "https://my-alx-guardian.onrender.com",
+      "repoLink": "https://github.com/itsoluwatobby/my-alx-guardian/tree/main/client",
+      "name": "my-alx-guardian",
+      "description": "A platform that allows learners on ALX view their achievements, connect with other learners, post educative connects and also view their learning progress.",
+      "tools": ["react", "tailwindcss", "typescript", "socketio"],
+      "year": "2024",
+      "role": "frontend",
+      "display": true
+    },
+    {
+      "id": 13,
+      "link": "https://my-alx-guardian.onrender.com",
+      "repoLink": "https://github.com/itsoluwatobby/my-alx-guardian/tree/main/server",
+      "name": "my-alx-guardian server",
+      "description": "A platform that allows learners on ALX view their achievements, connect with other learners, post educative connects and also view their learning progress.",
+      "tools": ["nodemailer", "javascript", "nodejs", "expressjs", "joi-validation", "socketio"],
+      "year": "2024",
+      "role": "backend",
+      "display": true
+    },
+    {
+      "id": 14,
       "link": "http://whatsapp-desktop-clone.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/Chat-Application-Backend",
       "name": "Swift Chat Server",
       "description": "Backend server that powers the swift chat application, it serves as the backend for the swift chat application, it handles user authentication, chat room creation, chat room joining, message sending and message receiving.",
       "tools": ["node", "expressjs", "socketio", "javascript"],
+      "role": "backend",
+      "year": "2023",
+      "display": true
+    },
+    {
+      "id": 15,
+      "link": "https://oluwatobiakinola-v1.onrender.com",
+      "repoLink": "https://github.com/itsoluwatobby/oluwatobi-akinola",
+      "name": "Oluwatobi Akinola",
+      "description": "My personal portfolio website, where I showcase my projects, skills, and experiences. You can also contact me through the contact form on the website.",
+      "tools": ["react", "tailwindcss", "typescript"],
+      "tag": "Featured Project",
+      "role": "frontend",
+      "year": "2025",
+      "display": true
+    },
+    {
+      "id": 16,
+      "link": "https://olamikun24.vercel.app",
+      "repoLink": "https://github.com/itsoluwatobby/olamikun24",
+      "name": "Olamikun24",
+      "description": "Olamikun24 is a single page application I gifted to a friend as a wedding gift, it contains information about the couple, the wedding date, the wedding venue and also a contact form for well-wishers.",
+      "tools": ["react", "firebase", "tailwindcss", "typescript"],
+      "tag": "Featured Project",
+      "role": "frontend",
+      "year": "2024",
+      "display": true
+    },
+    {
+      "id": 17,
+      "link": "https://contact-directory-green.vercel.app",
+      "repoLink": "https://github.com/itsoluwatobby/contact_directory",
+      "name": "Contact Directory",
+      "description": "Contact Directory is a platform that allows you to store and manage your contacts. You can add, edit, delete and search for contacts.",
+      "tools": ["react", "firebase", "nodejs", "expressjs", "mongodb", "tailwindcss", "typescript"],
+      "tag": "Featured Project",
+      "role": "fullstack",
+      "year": "2024",
+      "display": true
+    },
+    {
+      "id": 18,
+      "link": "",
+      "repoLink": "https://github.com/itsoluwatobby/node_script",
+      "name": "Node Script",
+      "description": "A collection of node scripts that I have written to automate some of my daily tasks, generating node server, installing dependencies, creating project structure etc. It supports both typescript and javascript.",
+      "tools": ["bash scripting"],
+      "tag": "Featured Project",
       "role": "backend",
       "year": "2023",
       "display": true

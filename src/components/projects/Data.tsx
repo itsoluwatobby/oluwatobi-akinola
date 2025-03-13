@@ -22,7 +22,7 @@ export const Data = ({ year, title, link, repo }: DataProps) => {
         </a>
 
         <a href={link} target="_blank"
-          className='hover:text-cyan-300 hover:bg-slate-800 p-1 rounded-sm'
+          className={`hover:text-cyan-300 hover:bg-slate-800 p-1 rounded-sm ${link ? '' : 'hidden'}`}
         >
           <RiShareBoxLine className="text-2xl" />
         </a>
