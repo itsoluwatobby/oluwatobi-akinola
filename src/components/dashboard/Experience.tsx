@@ -19,7 +19,7 @@ export default function Experience() {
     }, 200);
     setPrevId(placeId);
   }
-  console.log(prevId)
+  // console.log(prevId)
   return (
     <section
       id='experience'
@@ -32,7 +32,7 @@ export default function Experience() {
       >
         <div className="sm:border-0 border-b-2 border-b-slate-600 text-slate-400 flex sm:flex-col sm:items-start justify-between items-center h-fit sm:w-fit w-full">
           {
-            data.workDetails?.map((place) => (
+            data.workDetails?.slice(0,2)?.map((place) => (
               <button
                 className={`capitalize hover:text-cyan-300 hover:bg-[#112240] h-9 w-24 focus:text-cyan-300 focus:outline-none ring-0 transition-colors sm:text-sm font-mono sm:border-l-2 tracking-wide sm:border-l-gray-500 sm:focus:border-l-cyan-300 sm:pb-0 focus:border-b-2 border-l-gray-500 focus:border-b-cyan-300 ${place.id === prevId ? 'sm:border-l-cyan-300 border-b-cyan-300 text-cyan-300' : ''} sm:focus:border-b-0 sm:border-b-0 border-separate sm:pl-5 sm:text-start`}
                 key={place.id}

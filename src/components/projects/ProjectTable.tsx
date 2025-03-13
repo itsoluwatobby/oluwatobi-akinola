@@ -6,11 +6,12 @@ export default function ProjectTable() {
   const [projects, setProjects] = useState<Partial<Project>[]>([])
 
   useEffect(() => {
-    setProjects([...data.moreProjects, ...data.projects]);
+    const allProjects = [...data.moreProjects, ...data.projects]?.sort((a,b) => +b.year - +a.year);
+    setProjects(allProjects);
   }, [])
 
   return (
-    <section className='w-full h-full flex flex-col lg:px-10'>
+    <section className='w-full h-full flex flex-col lg:px-10 mb-10'>
       <div className="text-slate-400 font-semibold capitalize p-3 text-base gap-1 md:gap-4 flex items-center justify-between">
         <span className="flex-none w-14">Year</span>
         <span className="flex-auto w-full px-2">Title</span>

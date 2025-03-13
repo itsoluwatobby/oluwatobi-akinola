@@ -6,7 +6,9 @@ type ProjectsProps = {
 }
 export default function Projects({ observerRef }: ProjectsProps) {
   return (
-    <main className='h-full w-full p-3 py-5 flex flex-col gap-7 items-center '>
+    <main 
+    id='home'
+    className='h-full w-full p-3 py-5 flex flex-col gap-7 items-center '>
       <div 
       ref={observerRef as React.LegacyRef<HTMLDivElement>}
       className='self-start flex flex-col gap-2'>

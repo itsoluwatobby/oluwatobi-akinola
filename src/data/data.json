@@ -66,7 +66,7 @@
       "mobileThumbnail": "",
       "name": "Khefue Inc",
       "description": "Khefue is an ecommerce platform that enables users and partners (vendors) to buy/sell good and services like flight booking, bills payment, airtime, data plans, gift cards and also implemented a point reward-based system for purchases made on the platform.",
-      "tools": ["nodejs", "expressjs", "mysql", "azure", "docker", "node-cron", "typescript", "CI/CD"],
+      "tools": ["nodejs", "expressjs", "mysql", "sequelize", "azure", "docker", "node-cron", "typescript", "CI/CD"],
       "tag": "Featured Project",
       "role": "backend",
       "year": "2024",
@@ -87,11 +87,48 @@
       "year": "2023",
       "display": true,
       "duration":"May 2023 - Oct 2023"
+    },
+    {
+      "id": 4,
+      "link": "https://oluwatobiakinola-v1.onrender.com",
+      "repoLink": "https://github.com/itsoluwatobby/oluwatobi-akinola",
+      "thumbnail": "portfolio-1.png",
+      "mobileThumbnail": "portfolio-1-mobile.png",
+      "name": "Oluwatobi Akinola",
+      "description": "My personal portfolio website, where I showcase my projects, skills, and experiences. You can also contact me through the contact form on the website.",
+      "tools": ["react", "tailwindcss", "typescript"],
+      "tag": "Featured Project",
+      "role": "frontend",
+      "year": "2025",
+      "display": true,
+      "duration":"Dec 2024 - Jan 2025"
     }
   ],
   "moreProjects": [
     {
       "id": 1,
+      "link": "http://lovely-audios.onrender.com",
+      "repoLink": "https://github.com/itsoluwatobby/audio-book-server",
+      "name": "Lovely Audios Server",
+      "description": "Backend server that powers the lovely audios platform, it serves as the backend for the lovely audios platform, it handles user authentication, audio book uploads, user subscriptions and audio book streaming.",
+      "tools": ["nodejs", "expressjs", "mongodb", "javascript", "cloudinary"],
+      "role": "backend",
+      "year": "2024",
+      "display": true
+    },
+    {
+      "id": 2,
+      "link": "http://revolving.vercel.app",
+      "repoLink": "https://github.com/itsoluwatobby/Revolving/tree/main/server",
+      "name": "Revolving web server",
+      "description": "Backend server that powers the revolving platform, it serves as the backend for the revolving platform, it handles user authentication, post creation, post reading, post updating and post deletion.",
+      "tools": ["nodejs", "expressjs", "mongodb", "typescript", "socketio"],
+      "role": "backend",
+      "year": "2023",
+      "display": true
+    },
+    {
+      "id": 3,
       "link": "http://wallet-first.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/wallet-first",
       "name": "Wallet first",
@@ -102,7 +139,29 @@
       "display": true
     },
     {
-      "id": 2,
+      "id": 4,
+      "link": "",
+      "repoLink": "https://github.com/itsoluwatobby/find-my-campus",
+      "name": "Find My Campus",
+      "description": "Application server that powers the Find my campus fellowship application. Built with nodejs and graphql, it serves as the backend for the application, it handles user authentication, fellowship creation, fellowship reading, fellowship updating and fellowship deletion.",
+      "tools": ["nodejs", "expressjs", "mongodb", "graphql", "javascript"],
+      "role": "frontend",
+      "year": "2024",
+      "display": true
+    },
+    {
+      "id": 5,
+      "link": "http://whatsapp-desktop-clone.onrender.com",
+      "repoLink": "https://github.com/itsoluwatobby/Chat-Application",
+      "name": "Swift Chat",
+      "description": "Swift Chat is a chat application that allows you to send and receive messages in real-time. You can also create and join chat rooms to chat with multiple people at the same time.",
+      "tools": ["react", "tailwindcss", "socketio", "firebase", "javascript"],
+      "role": "frontend",
+      "year": "2023",
+      "display": true
+    },
+    {
+      "id": 6,
       "link": "https://blaze-estate.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/blaze-estate",
       "name": "Blaze Estate",
@@ -110,6 +169,17 @@
       "year": "2024",
       "tools": ["react", "tailwindcss"],
       "role": "frontend",
+      "display": true
+    },
+    {
+      "id": 7,
+      "link": "http://whatsapp-desktop-clone.onrender.com",
+      "repoLink": "https://github.com/itsoluwatobby/Chat-Application-Backend",
+      "name": "Swift Chat Server",
+      "description": "Backend server that powers the swift chat application, it serves as the backend for the swift chat application, it handles user authentication, chat room creation, chat room joining, message sending and message receiving.",
+      "tools": ["node", "expressjs", "socketio", "javascript"],
+      "role": "backend",
+      "year": "2023",
       "display": true
     }
   ]

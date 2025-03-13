@@ -5,6 +5,7 @@ import { VscOpenPreview } from "react-icons/vsc";
 import ProjectPreview from "./PorjectPreview";
 import { useState } from "react";
 // import { setCustomBackgroundImage } from "../utils/styles";
+// import { setCustomBackgroundImage } from "../utils/styles";
 
 type ProjectCardProps = {
   project: Project;
@@ -14,6 +15,14 @@ export default function ProjectCard({ project }: ProjectCardProps) {
 
   return (
       <article 
+      // style={
+      //   setCustomBackgroundImage(
+      //     `/projects/${project.thumbnail}`,
+      //     {
+      //       backgroundOpacity: 0.2
+      //     }
+      //   )
+      // }
       className={`relative ${project.display ? 'flex' : 'hidden'} rounded-lg ${Colors.lightNavy} flex-col gap-5 p-5 md:p-8 shadow-md`}>
 
         {
