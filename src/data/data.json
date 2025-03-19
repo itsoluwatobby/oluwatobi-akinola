@@ -8,7 +8,7 @@
       "duration": "September 2024 - February 2025",
       "stack": ["nodejs", "expressjs", "mysql", "azure", "docker", "node-cron", "typescript"],
       "content": [
-        "Developed and ecommerce platform that enables users and partners (vendors) to buy/sell good and services like flight booking, bills payment, airtime, data plans, gift cards and also implemented a point reward-based system for purchases made on the platform.",
+        "Developed an ecommerce platform that enables users and partners (vendors) to buy/sell good and services like flight booking, bills payment, airtime, data plans, gift cards and also implemented a point reward-based system for purchases made on the platform.",
         "Built a user wallet system (employing the use of third-party banking services) as an alternative payment method, also included supports for card, point, card_and_points and wallet_and_points, which streamlines transactions across the platform.",
         "Utilized an SQL database, implemented CI/CD practices during development, executed deployments on Microsoft Azure, ensuring scalability with a proxy server and load balancer for load distribution.",
         "Proper handling of user authentication/authorization with role and permission-based resource access."
