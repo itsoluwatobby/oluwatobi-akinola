@@ -15,7 +15,7 @@ export const profileHoverEffects = [
 ];
 
 export const Applinks = {
-  resume: 'https://drive.google.com/file/d/1olVjzj5Z7NeT29b2Pa_xZ0MW8SVZnpB2/view?usp=drive_link',
+  resume: 'https://drive.google.com/file/d/1W_UNhmtcUPsfnwac4uGxfNImZdR3EyMA/view?usp=drive_link',
   email: 'mailto:itsoluwatobby@gmail.com',
   github: 'https://github.com/itsoluwatobby',
   linkedIn: 'https://linkedin.com/in/itsoluwatobby',
