@@ -45,13 +45,41 @@
   "projects": [
     {
       "id": 1,
+      "link": "https://zedo.cc",
+      "thumbnail": "zedo.png",
+      "mobileThumbnail": "zedo-mobile.png",
+      "name": "Zedo",
+      "description": "Zedo is an AI-Powered Property Search platform that provides an advanced property recommendation that applies to the specific needs of each client, ensuring perfect matches every time.",
+      "tools": ["vue", "tailwindcss", "AI"],
+      "tag": "Featured Project",
+      "role": "frontend",
+      "year": "2025",
+      "display": true,
+      "duration":"April 2025"
+    },
+    {
+      "id": 2,
+      "link": "https://korrin-frontend-lgmr.vercel.app/",
+      "thumbnail": "korrin.png",
+      "mobileThumbnail": "korrin-mobile.png",
+      "name": "KorRin",
+      "description": "Korrin is an online platform for Hiring Your Favorite Artistes/Content Creators for Online Live Performance.",
+      "tools": ["react", "tailwindcss", "aws IVS", "stripe"],
+      "tag": "Featured Project",
+      "role": "frontend",
+      "year": "2023",
+      "display": true,
+      "duration":"June 2023"
+    },
+    {
+      "id": 3,
       "link": "http://lovely-audios.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/gracie-reads",
       "thumbnail": "lovely-audio.png",
       "mobileThumbnail": "lovely-audio-mobile.png",
       "name": "Lovely Audios",
       "description": "Listen to your audio books at your conveinence, with lovely audios you can listen to your favorite audio books on the go, at home, in the office or anywhere you find yourself.",
-      "tools": ["react", "tailwindcss", "tailwindcss", "cloudinary"],
+      "tools": ["react", "tailwindcss", "cloudinary"],
       "tag": "Featured Project",
       "role": "fullstack",
       "year": "2025",
@@ -59,7 +87,7 @@
       "duration":"Dec 2024 - Feb 2025"
     },
     {
-      "id": 3,
+      "id": 4,
       "link": "http://khefue.com",
       "repoLink": "",
       "thumbnail": "",
@@ -74,7 +102,7 @@
       "duration":"Sept 2024 - Ongoing"
     },
     {
-      "id": 3,
+      "id": 5,
       "link": "https://revolving.vercel.app",
       "repoLink": "https://github.com/itsoluwatobby/Revolving/tree/main/client",
       "thumbnail": "revolving.png",
@@ -89,7 +117,7 @@
       "duration":"May 2023 - Oct 2023"
     },
     {
-      "id": 4,
+      "id": 6,
       "link": "https://kingklass.vercel.app/",
       "repoLink": "https://github.com/itsoluwatobby/KingKlass",
       "thumbnail": "kingklass.png",
@@ -106,7 +134,7 @@
   ],
   "moreProjects": [
     {
-      "id": 5,
+      "id": 7,
       "link": "http://lovely-audios.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/audio-book-server",
       "name": "Lovely Audios Server",
@@ -117,7 +145,7 @@
       "display": true
     },
     {
-      "id": 6,
+      "id": 8,
       "link": "http://revolving.vercel.app",
       "repoLink": "https://github.com/itsoluwatobby/Revolving/tree/main/server",
       "name": "Revolving server",
@@ -128,7 +156,7 @@
       "display": true
     },
     {
-      "id": 7,
+      "id": 9,
       "link": "http://wallet-first.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/wallet-first",
       "name": "Wallet first",
@@ -139,7 +167,7 @@
       "display": true
     },
     {
-      "id": 8,
+      "id": 10,
       "link": "",
       "repoLink": "https://github.com/itsoluwatobby/find-my-campus",
       "name": "Find My Campus",
@@ -150,7 +178,7 @@
       "display": true
     },
     {
-      "id": 9,
+      "id": 11,
       "link": "http://whatsapp-desktop-clone.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/Chat-Application",
       "name": "Swift Chat",
@@ -161,7 +189,7 @@
       "display": true
     },
     {
-      "id": 10,
+      "id": 12,
       "link": "https://blaze-estate.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/blaze-estate",
       "name": "Blaze Estate",
@@ -172,7 +200,7 @@
       "display": true
     },
     {
-      "id": 11,
+      "id": 13,
       "link": "http://getlinked-contest-oluwatobi.vercel.app",
       "repoLink": "https://github.com/itsoluwatobby/Getlinked_contest",
       "name": "Getlinked Contest",
@@ -183,7 +211,7 @@
       "display": true
     },
     {
-      "id": 12,
+      "id": 14,
       "link": "https://my-alx-guardian.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/my-alx-guardian/tree/main/client",
       "name": "my-alx-guardian",
@@ -194,7 +222,7 @@
       "display": true
     },
     {
-      "id": 13,
+      "id": 15,
       "link": "https://my-alx-guardian.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/my-alx-guardian/tree/main/server",
       "name": "my-alx-guardian server",
@@ -205,7 +233,7 @@
       "display": true
     },
     {
-      "id": 14,
+      "id": 16,
       "link": "http://whatsapp-desktop-clone.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/Chat-Application-Backend",
       "name": "Swift Chat Server",
@@ -216,7 +244,7 @@
       "display": true
     },
     {
-      "id": 15,
+      "id": 17,
       "link": "https://oluwatobiakinola-v1.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/oluwatobi-akinola",
       "name": "Oluwatobi Akinola",
@@ -228,7 +256,7 @@
       "display": true
     },
     {
-      "id": 16,
+      "id": 18,
       "link": "https://olamikun24.vercel.app",
       "repoLink": "https://github.com/itsoluwatobby/olamikun24",
       "name": "Olamikun24",
@@ -240,7 +268,7 @@
       "display": true
     },
     {
-      "id": 17,
+      "id": 19,
       "link": "https://contact-directory-green.vercel.app",
       "repoLink": "https://github.com/itsoluwatobby/contact_directory",
       "name": "Contact Directory",
@@ -252,7 +280,7 @@
       "display": true
     },
     {
-      "id": 18,
+      "id": 20,
       "link": "",
       "repoLink": "https://github.com/itsoluwatobby/node_script",
       "name": "Node Script",
