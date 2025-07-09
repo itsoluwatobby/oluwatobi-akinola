@@ -55,7 +55,7 @@ type Project = {
   thumbnail: string;
   year: string;
   mobileThumbnail: string;
-  repoLink: string;
+  repoLink?: string;
   name: string;
   description: string;
   tools: string[];
