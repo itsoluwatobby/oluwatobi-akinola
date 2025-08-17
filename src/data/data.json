@@ -230,7 +230,7 @@
       "tools": ["nodemailer", "javascript", "nodejs", "expressjs", "joi-validation", "socketio"],
       "year": "2024",
       "role": "backend",
-      "display": true
+      "display": false
     },
     {
       "id": 16,
