@@ -1,14 +1,14 @@
 import TypewriterEffect from "../TypewriterEffect";
+import data from "../../data/data.json";
 
 type HeroProps = {
   appName: string;
-  workPlace: string;
   observerRef: React.LegacyRef<HTMLDivElement>
 }
 
 export default function Hero(
   {
-    appName, workPlace, observerRef,
+    appName, observerRef,
   }: HeroProps
 ) {
   return (
@@ -27,7 +27,8 @@ export default function Hero(
       </article>
 
       <p className="text-slate-300 tracking-wide leading-7">
-        I'm a software developer specializing in building web applications and application servers. Presently building user centered applications and services at <span className="text-[#a5f3fc]">{workPlace}</span> and I'm committed to delivering high-quality solutions.
+        {data.title}
+        {/* I'm a software developer specializing in building web applications and application servers. Presently building user centered applications and services at <span className="text-[#a5f3fc]">{workPlace}</span> and I'm committed to delivering high-quality solutions. */}
       </p>
     </section>
   )

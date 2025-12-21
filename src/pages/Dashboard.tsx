@@ -20,7 +20,6 @@ export default function Dashboard({ observerRef }: DashboardProp) {
     <>
       <Hero 
         appName={appInfo.name}
-        workPlace={appInfo.workPlace}
         observerRef={observerRef  as React.LegacyRef<HTMLDivElement>}
       />
 
