@@ -26,10 +26,7 @@ export default function Hero(
         <p className="text-slate-400 font-bold mobile:text-3xl">I transform complex problems into elegant solutions.</p>
       </article>
 
-      <p className="text-slate-300 tracking-wide leading-7">
-        {data.title}
-        {/* I'm a software developer specializing in building web applications and application servers. Presently building user centered applications and services at <span className="text-[#a5f3fc]">{workPlace}</span> and I'm committed to delivering high-quality solutions. */}
-      </p>
+      <p className="text-slate-300 tracking-wide leading-7">{data.title}</p>
     </section>
   )
 }
