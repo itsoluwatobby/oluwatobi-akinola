@@ -5,13 +5,14 @@
       "role": "Backend Engineer",
       "name": "Khefue",
       "workPlace": "Khefue LTD",
-      "duration": "September 2024 - February 2025",
-      "stack": ["nodejs", "expressjs", "mysql", "azure", "docker", "node-cron", "typescript"],
+      "duration": "September 2024 - Current",
+      "stack": ["nodejs", "expressjs", "mysql", "websocket", "azure", "docker", "node-cron", "typescript"],
       "content": [
+        "Proper handling of user authentication/authorization with role and permission-based resource access.",
+        "Realtime transaction updates using websocket",
         "Developed an ecommerce platform that enables users and partners (vendors) to buy/sell good and services like flight booking, bills payment, airtime, data plans, gift cards and also implemented a point reward-based system for purchases made on the platform.",
         "Built a user wallet system (employing the use of third-party banking services) as an alternative payment method, also included supports for card, point, card_and_points and wallet_and_points, which streamlines transactions across the platform.",
-        "Utilized an SQL database, implemented CI/CD practices during development, executed deployments on Microsoft Azure, ensuring scalability with a proxy server and load balancer for load distribution.",
-        "Proper handling of user authentication/authorization with role and permission-based resource access."
+        "Utilized an SQL database, implemented CI/CD practices during development, executed deployments on Microsoft Azure, ensuring scalability with a proxy server and load balancer for load distribution."
       ]
     },
     {
@@ -48,28 +49,29 @@
       "link": "https://zedo.cc",
       "thumbnail": "zedo.png",
       "mobileThumbnail": "zedo-mobile.png",
-      "name": "Zedo",
-      "description": "Zedo is an AI-Powered Property Search platform that provides an advanced property recommendation that applies to the specific needs of each client, ensuring perfect matches every time.",
-      "tools": ["vue", "tailwindcss", "AI"],
+      "name": "Zedo — AI-Driven Real Estate Platform",
+      "description": "Contributed to the development of Zedo, an AI-enabled real estate platform aimed at simplifying property search and management. Built core features to enhance user experience for agents, landlords, and property seekers, integrating responsive UI components and real-world search interactions. Managed deployment and continuous updates to ensure a functional online presence. This project highlights practical experience in designing user-focused web applications and handling live deployment workflows.",
+      "tools": ["vue", "python", "langchain", "chat integration (Whatsapp)", "nodejs - (Nestjs)", "tailwindcss", "AI"],
       "tag": "Featured Project",
-      "role": "frontend",
+      "role": "Full stack Developer",
       "year": "2025",
       "display": true,
-      "duration":"April 2025"
+      "duration":"April 2025 - Dec 2025"
     },
     {
       "id": 2,
-      "link": "https://korrin-frontend-lgmr.vercel.app/",
-      "thumbnail": "korrin.png",
-      "mobileThumbnail": "korrin-mobile.png",
-      "name": "KorRin",
-      "description": "Korrin is an online platform for Hiring Your Favorite Artistes/Content Creators for Online Live Performance.",
-      "tools": ["react", "tailwindcss", "aws IVS", "stripe"],
-      "tag": "Featured Project",
-      "role": "frontend",
-      "year": "2023",
+      "link": "https://wandyte-book-sales.onrender.com",
+      "repoLink": "https://github.com/itsoluwatobby/gracie-books",
+      "thumbnail": "wandyte-book-sales.png",
+      "mobileThumbnail": "mobile-wandyte-book-sales.png",
+      "name": "Wandyte Book Sales — Online Bookstore Platform",
+      "description": "Developed a web-based book sales platform that allows users to browse available books and interact with product listings. Implemented core e-commerce features such as dynamic product display and user-friendly navigation. Handled application deployment and hosting on Render, showcasing hands-on experience in building and deploying production-ready web applications.",
+      "tools": ["reactjs", "tailwindcss", "nodejs", "firebase", "Web Hosting (Render)"],
+      "tag": "Personal Project",
+      "role": "fullstack",
+      "year": "2025",
       "display": true,
-      "duration":"June 2023"
+      "duration":"April 2025 - Nov 2025"
     },
     {
       "id": 3,
@@ -77,8 +79,8 @@
       "repoLink": "https://github.com/itsoluwatobby/coreInfra-take-home",
       "thumbnail": "core-infra.png",
       "mobileThumbnail": "core-infra-mobile.png",
-      "name": "Admin financial dashboard",
-      "description": "An admin dashboard for managing and monitoring users financials information",
+      "name": "Financial — Infrastructure Dashboard",
+      "description": "Built a web-based infrastructure dashboard with a responsive interface for interacting with system data. Handled end-to-end development and deployment, demonstrating practical experience in full-stack development and cloud hosting.",
       "tools": ["react", "tailwindcss", "recharts"],
       "tag": "Featured Project",
       "role": "frontend",
@@ -88,7 +90,7 @@
     },
     {
       "id": 4,
-      "link": "http://khefue.com",
+      "link": "https://khefue.com",
       "repoLink": "",
       "thumbnail": "",
       "mobileThumbnail": "",
@@ -135,6 +137,21 @@
   "moreProjects": [
     {
       "id": 7,
+      "link": "https://oluwapelumi-et-oluwaseun.onrender.com",
+      "repoLink": "https://github.com/itsoluwatobby/spa-wedding-platform",
+      "thumbnail": "home.png",
+      "mobileThumbnail": "mobile-home.png",
+      "name": "Oluwapelumi & Oluwaseun 2025",
+      "description": "Developed a dedicated web platform hosted on Render to showcase a personalized event/project (likely a wedding or milestone celebration site). Built with modern web deployment infrastructure to provide an accessible, responsive online presence for the event, enabling visitors to find relevant details and interact with the content easily. This project reflects skills in web hosting, deployment workflows, and front-end presentation design.",
+      "tools": ["reactjs", "tailwindcss", "nodejs", "expressjs", "mongodb", "typescript", "Web Hosting (Render)"],
+      "tag": "Personal Project",
+      "role": "fullstack",
+      "year": "2025",
+      "display": true,
+      "duration":"Sept 2025"
+    },
+    {
+      "id": 8,
       "link": "http://lovely-audios.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/audio-book-server",
       "name": "Lovely Audios Server",
@@ -145,7 +162,21 @@
       "display": true
     },
     {
-      "id": 8,
+      "id": 9,
+      "link": "https://korrin-frontend-lgmr.vercel.app/",
+      "thumbnail": "korrin.png",
+      "mobileThumbnail": "korrin-mobile.png",
+      "name": "KorRin",
+      "description": "Korrin is an online platform for Hiring Your Favorite Artistes/Content Creators for Online Live Performance.",
+      "tools": ["react", "tailwindcss", "aws IVS", "stripe"],
+      "tag": "Featured Project",
+      "role": "frontend",
+      "year": "2023",
+      "display": true,
+      "duration":"June 2023"
+    },
+    {
+      "id": 10,
       "link": "http://revolving.vercel.app",
       "repoLink": "https://github.com/itsoluwatobby/Revolving/tree/main/server",
       "name": "Revolving server",
@@ -156,7 +187,7 @@
       "display": true
     },
     {
-      "id": 9,
+      "id": 11,
       "link": "http://wallet-first.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/wallet-first",
       "name": "Wallet first",
@@ -167,7 +198,7 @@
       "display": true
     },
     {
-      "id": 10,
+      "id": 12,
       "link": "",
       "repoLink": "https://github.com/itsoluwatobby/find-my-campus",
       "name": "Find My Campus",
@@ -178,7 +209,7 @@
       "display": true
     },
     {
-      "id": 11,
+      "id": 13,
       "link": "http://whatsapp-desktop-clone.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/Chat-Application",
       "name": "Swift Chat",
@@ -189,7 +220,7 @@
       "display": true
     },
     {
-      "id": 12,
+      "id": 14,
       "link": "https://blaze-estate.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/blaze-estate",
       "name": "Blaze Estate",
@@ -200,7 +231,7 @@
       "display": true
     },
     {
-      "id": 13,
+      "id": 15,
       "link": "http://getlinked-contest-oluwatobi.vercel.app",
       "repoLink": "https://github.com/itsoluwatobby/Getlinked_contest",
       "name": "Getlinked Contest",
@@ -211,7 +242,7 @@
       "display": true
     },
     {
-      "id": 14,
+      "id": 16,
       "link": "https://my-alx-guardian.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/my-alx-guardian/tree/main/client",
       "name": "my-alx-guardian",
@@ -222,7 +253,7 @@
       "display": true
     },
     {
-      "id": 15,
+      "id": 17,
       "link": "https://my-alx-guardian.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/my-alx-guardian/tree/main/server",
       "name": "my-alx-guardian server",
@@ -233,7 +264,7 @@
       "display": false
     },
     {
-      "id": 16,
+      "id": 18,
       "link": "http://whatsapp-desktop-clone.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/Chat-Application-Backend",
       "name": "Swift Chat Server",
@@ -244,7 +275,7 @@
       "display": true
     },
     {
-      "id": 17,
+      "id": 19,
       "link": "https://oluwatobiakinola-v1.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/oluwatobi-akinola",
       "name": "Oluwatobi Akinola",
@@ -256,7 +287,7 @@
       "display": true
     },
     {
-      "id": 18,
+      "id": 20,
       "link": "https://olamikun24.vercel.app",
       "repoLink": "https://github.com/itsoluwatobby/olamikun24",
       "name": "Olamikun24",
@@ -268,7 +299,7 @@
       "display": true
     },
     {
-      "id": 19,
+      "id": 21,
       "link": "https://contact-directory-green.vercel.app",
       "repoLink": "https://github.com/itsoluwatobby/contact_directory",
       "name": "Contact Directory",
@@ -280,7 +311,7 @@
       "display": true
     },
     {
-      "id": 20,
+      "id": 22,
       "link": "",
       "repoLink": "https://github.com/itsoluwatobby/node_script",
       "name": "Node Script",
@@ -290,6 +321,60 @@
       "role": "backend",
       "year": "2023",
       "display": true
+    }
+  ],
+  "aboutMe": {
+    "info": [
+      "I’m Oluwatobi Akinola, a software developer passionate about transforming complex problems into elegant solutions. I’m eager to contribute to a community where I can make technology more accessible, impactful, and secure for everyone.",
+      "I build intuitive, user-friendly interfaces and implement robust server-side and client-side logic. I specialize in seamless integration of web applications with APIs and external libraries, as well as designing secure authentication systems and ensuring overall application security."
+    ],
+    "technologies": ["Javascript", "Typescript", "React", "Tailwindcss", "Python", "Fastapi", "Nodejs", "Redis", "Websockets", "GraphQL", "Databases (MySQL, Postgresql, MongoDB)", "Cloud Platforms (AWS, GCP and Azure)"],
+    "activityUpdates": [
+      {
+        "id": 1,
+        "content": "I’ve developed a strong interest in API security and am currently taking certification courses with APISEC to deepen my understanding and strengthen my practical skills in designing and securing robust APIs.",
+        "date": "2025-11-15"
+      },
+      {
+        "id": 2,
+        "content": "Actively expanding my technical skill set by learning Go (Golang), a system-level programming language, and thoroughly enjoying the process of building high-performance, scalable software while deepening my understanding of efficient system design.",
+        "date": "2025-11-25"
+      }
+    ]
+  },
+  "certifications": [
+    {
+      "id": 1,
+      "title": "API Security Fundamentals '25",
+      "thumbnail": "/certifications/apisec-1-cert.png",
+      "date": "Nov 2025",
+      "display": true,
+      "link": "https://www.credly.com/badges/5e6d34c9-9ebe-4ae9-a644-08a05d099cff"
+    },
+    {
+      "id": 2,
+      "title": "Golang System Programming",
+      "thumbnail": "/images/golang.png",
+      "date": "Nov 2025",
+      "display": false,
+      "link": "https://example.com/certificate/golang"
+    }
+  ],
+  "whatNextOpenStatus": [
+    {
+      "id": 1,
+      "status": "Balanced & Professional",
+      "content": "I’m currently open to new opportunities and always happy to connect. Whether you have a question or a potential opportunity, feel free to reach out—I’ll be glad to respond."
+    },
+    {
+      "id": 2,
+      "status": "More Warm & Approachable",
+      "content": "I’m open to new opportunities and my inbox is always open. Whether you have a question or an opportunity to discuss, I’d be happy to connect and will get back to you promptly."
+    },
+    {
+      "id": 3,
+      "status": "Confident & Direct",
+      "content": "I’m actively exploring new opportunities and welcome conversations. Feel free to reach out with questions or opportunities—I’m always open to connecting."
     }
   ]
 }

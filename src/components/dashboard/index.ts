@@ -6,6 +6,7 @@ import Experience from "./Experience";
 import ProjectView from "./ProjectView";
 import WhatNext from "./WhatNext";
 import MoreProjects from "./MoreProjects";
+import Certifications from "./Certifications";
 import Footer from "./Footer";
 
 export {
@@ -18,4 +19,5 @@ export {
   WhatNext,
   MoreProjects,
   Footer,
+  Certifications,
 };

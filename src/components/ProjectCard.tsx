@@ -2,7 +2,7 @@ import { FiGithub } from "react-icons/fi";
 import { Colors } from '../utils/colors';
 import { RiShareBoxLine } from "react-icons/ri";
 import { VscOpenPreview } from "react-icons/vsc";
-import ProjectPreview from "./PorjectPreview";
+import ProjectPreview from "./ProjectPreview";
 import { useState } from "react";
 // import { setCustomBackgroundImage } from "../utils/styles";
 // import { setCustomBackgroundImage } from "../utils/styles";

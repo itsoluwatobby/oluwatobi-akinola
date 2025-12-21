@@ -5,6 +5,7 @@ import {
   ProjectView,
   WhatNext,
   MoreProjects,
+  Certifications,
 } from "../components/dashboard";
 import { useAppContext } from "../hooks";
 
@@ -30,6 +31,8 @@ export default function Dashboard({ observerRef }: DashboardProp) {
       <ProjectView />
 
       <MoreProjects />
+
+      <Certifications />
 
       <WhatNext />
     </>

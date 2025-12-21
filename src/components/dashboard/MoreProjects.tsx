@@ -33,7 +33,7 @@ export default function MoreProjects() {
       </div>
 
       <button
-        onClick={() => setCount((prev) => prev === 6 ? 9 : 6)}
+        onClick={() => setCount((prev) => prev === 6 ? 12 : 6)}
         className={`w-28 h-10 md:w-24 md:h-9 rounded-md transition-transform grid place-content-center active:-translate-x-0 active:translate-y-0 font-mono text-cyan-300 cursor-pointer ${Colors.lightNavy} border border-cyan-300`}
       >
         view {count === 6 ? 'more' : 'less'}
