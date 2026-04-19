@@ -9,7 +9,6 @@ type DataProps = {
 }
 
 export const Data = ({ year, title, link, repo }: DataProps) => {
-  console.log(year)
   return (
     <div className="text-slate-400 bg-opacity-20 hover:bg-slate-700 rounded-md capitalize p-3 py-2 text-sm gap-1 md:gap-4 flex items-center justify-between transition-all duration-300 cursor-default">
       <span className="flex-none w-14 text-cyan-200">{year}</span>

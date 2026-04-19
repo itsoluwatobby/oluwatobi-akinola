@@ -1,50 +1,124 @@
 {
-  "title": "I’m a software developer specializing in designing and building robust web applications and scalable application servers. I focus on creating user-centered applications and services, emphasizing performance, security, and maintainability. I am committed to delivering high-quality solutions that solve real-world problems and enhance user experiences.",
+  "title": "Backend engineer specialising in production-grade Node.js/TypeScript systems — multi-tenant SaaS, payment integrations, AI-powered services, and cloud-native architectures on AWS and Azure.",
   "workDetails": [
     {
       "id": 1,
       "role": "Backend Engineer",
       "name": "Khefue",
       "workPlace": "Khefue LTD",
-      "duration": "September 2024 - Current",
-      "stack": ["nodejs", "expressjs", "mysql", "websocket", "azure", "docker", "node-cron", "typescript"],
+      "duration": "September 2024 - Present",
+      "stack": ["typescript", "nodejs", "expressjs", "mssql", "sequelize", "redis", "socketio", "azure", "docker", "node-cron", "jwt"],
       "content": [
-        "Proper handling of user authentication/authorization with role and permission-based resource access.",
-        "Realtime transaction updates using websocket",
-        "Developed an ecommerce platform that enables users and partners (vendors) to buy/sell good and services like flight booking, bills payment, airtime, data plans, gift cards and also implemented a point reward-based system for purchases made on the platform.",
-        "Built a user wallet system (employing the use of third-party banking services) as an alternative payment method, also included supports for card, point, card_and_points and wallet_and_points, which streamlines transactions across the platform.",
-        "Utilized an SQL database, implemented CI/CD practices during development, executed deployments on Microsoft Azure, ensuring scalability with a proxy server and load balancer for load distribution."
+        "Architected and built the entire backend API for a production-grade multi-sided marketplace aggregating e-commerce, travel bookings (flights, hotels, car rentals), VTU/utility bill payments, digital gift cards, and a loyalty rewards program into a single RESTful platform.",
+        "Engineered payment orchestration across Paystack, Fincra, and VPAY with automatic fallback routing, webhook verification, and PDF receipt generation; integrated VTU and utility services via 9PBS VAS, vtPass, and multiple Nigerian telco networks.",
+        "Built a loyalty and rewards engine with points accrual (1pt per ₦2,000 spent), tiered membership with automated monthly migrations, peer-to-peer gifting, and point redemption at ₦10/pt — alongside a discount and promotions system supporting time-bound, geo-targeted, and age-targeted campaigns with usage analytics.",
+        "Implemented async job processing using Azure Queue with retry logic for failed transactions and background cron tasks (transaction validation, tier migration, birthday emails); real-time notifications via Socket.io with multi-channel delivery (email via Nodemailer/Handlebars, in-app, web push).",
+        "Applied RBAC across User, Partner, and Admin roles with permission-gated endpoints, audit logging, Redis caching with file-system fallback, rate limiting (300 req/10 min), Helmet.js security headers, and structured Winston logging with daily rotation."
       ]
     },
     {
       "id": 2,
-      "role": "Full stack Developer",
+      "role": "Full Stack Developer",
       "name": "Devheit",
       "workPlace": "Devheit.ng",
       "duration": "January 2024 - Present",
       "stack": ["nextjs", "tailwindcss", "aws", "nodejs", "websocket", "docker", "expressjs", "postgresql", "mongodb"],
       "content": [
-        "Worked on a cross-border payment platform handling transactions across currencies, integrating third-party services for up-to-date exchange rates, ensuring accurate and efficient payment processing.",
-        "Engineered an entertainment platform that facilitates influencer-brand collaborations by serving as a secure payment gateway and helps creates visibility for micro-influencers.", 
-        "Collaborated on a full-stack financial app managing user accounts and unique IDs for quick info-sharing, contributing to both frontend and backend development alongside a team. Real-time bi-directional communication using WebSocket"
+        "Built core backend services for a cross-border payment platform, integrating live exchange rate feeds from third-party providers and handling multi-currency transaction flows with accuracy and reliability.",
+        "Developed backend infrastructure for an influencer-brand collaboration platform acting as a secure escrow payment gateway, enabling milestone-based fund releases and driving visibility for micro-influencers.",
+        "Contributed to a full-stack financial management app with real-time bi-directional sync via WebSocket, handling user account management, unique shareable IDs, and collaborative features across a cross-functional team."
       ]
     },
     {
       "id": 3,
       "role": "Backend Engineer",
       "name": "USAF",
-      "workPlace": "United states of africa",
-      "duration": "May 2022 - Dec 2022",
+      "workPlace": "United States of Africa",
+      "duration": "May 2022 - December 2022",
       "stack": ["nodejs", "expressjs", "mongodb", "aws", "passportjs", "typescript"],
       "content": [
-        "Developed a platform that allows users to create and share their thoughts, ideas, and opinions with the world. Users can also read and interact with other people's posts.",
-        "Implemented a real-time chat feature using socket.io, allowing users to communicate with each other in real-time.",
-        "Integrated a code editor (Monaco Editor) that allows users to write and run code snippets in various programming languages.",
-        "Utilized Firebase for user authentication and authorization, ensuring that users can only access resources they have permission to access."
+        "Built a full-stack content and social platform where users can publish posts, interact with other users' content, and communicate in real-time via Socket.io.",
+        "Integrated Monaco Editor for in-browser code snippet execution across multiple languages, and implemented OAuth-based authentication with Passport.js alongside role-gated route protection.",
+        "Deployed and managed the application on AWS, applying server-side validation and session management to ensure secure, reliable access across the platform."
+      ]
+    },
+    {
+      "id": 4,
+      "role": "Backend Engineer",
+      "name": "CHMAAS",
+      "workPlace": "CHMAAS",
+      "duration": "Mar. 2026 - May 2026",
+      "stack": ["typescript", "nodejs", "expressjs", "postgresql", "sequelize", "aws", "docker", "github-actions", "jwt", "node-cron", "aws-sqs", "aws-lambda"],
+      "content": [
+        "Architected a multi-tenant SaaS platform for faith-based organizations with full tenant isolation using shared-schema tenantId-based data partitioning across 13+ relational models and hierarchical branch structures.",
+        "Implemented role-based access control (Admin, Worker, User) scoped per branch, with JWT access/refresh token pairs, OTP verification, and bcrypt-secured authentication.",
+        "Built automated task generation via cron jobs that assigns weekly follow-up tasks to workers and detects overdue items, with full audit trails for member status transitions and follow-up history.",
+        "Designed an event-driven email notification system decoupled via AWS SQS and Lambda, supporting onboarding, invites, OTP, and subscription event templates.",
+        "Containerized the backend using Docker multi-stage builds and established GitHub Actions CI/CD pipelines deploying to AWS ECR across staging and production environments."
+      ]
+    },
+    {
+      "id": 5,
+      "role": "Backend Engineer",
+      "name": "Excel Health",
+      "workPlace": "Excel Health",
+      "duration": "December 2025 - May 2026",
+      "stack": ["typescript", "nodejs", "expressjs", "postgresql", "sequelize", "aws", "docker", "socketio", "agora-sdk", "google-gemini", "jwt", "google-oauth2", "aws-sqs", "aws-lambda", "aws-api-gateway", "serverless-framework"],
+      "content": [
+        "Designed and built a microservices-based telehealth backend comprising four independently deployable services: a core API, a community forum, an AWS Lambda email dispatcher, and an API Gateway JWT authorizer — with Winston structured logging throughout.",
+        "Engineered an appointment booking engine with urgency triage (BP/blood sugar thresholds), nurse referral fallback for missing vitals, and booking limits enforced by subscription tier.",
+        "Integrated a Gemini AI-powered symptom screening chatbot with critical condition detection and nearby hospital routing, alongside Agora SDK for video consultation room provisioning and post-call review workflows.",
+        "Built a multi-role auth system supporting JWT, Google OAuth2, Apple Sign-In, HTTP-only session cookies, TOTP 2FA (speakeasy), and bcrypt — with an API Gateway custom authorizer that validates tokens, generates IAM policies, and distinguishes public vs. authenticated routes.",
+        "Implemented SOS emergency broadcasting to available nearby nurses, subscription/payment tiers with wallet and referral rewards, family guest access via device-linked invite links, and a push/WhatsApp/email notification system across all key events."
       ]
     }
   ],
   "projects": [
+    {
+      "id": 4,
+      "link": "https://khefue.com",
+      "repoLink": "",
+      "thumbnail": "",
+      "mobileThumbnail": "",
+      "name": "Khefue Platform — Backend API",
+      "description": "Architected and built the entire backend API for a production-grade multi-sided marketplace and lifestyle platform serving customers, merchants, and administrators. Aggregates e-commerce, travel bookings (flights, hotels, car rentals), VTU/utility bill payments, digital gift cards, and a loyalty rewards program into a single unified RESTful experience. Features payment orchestration across Paystack, Fincra, and VPAY with automatic fallback, a tiered loyalty engine with peer-to-peer gifting and point redemption, async job processing via Azure Queue, real-time notifications via Socket.io, and geo/age-targeted promotions — with Redis caching, RBAC across three user types, and structured Winston logging throughout.",
+      "tools": ["typescript", "nodejs", "expressjs", "mssql", "sequelize", "redis", "socketio", "azure", "docker", "node-cron", "jwt", "joi-validation"],
+      "tag": "Featured Project",
+      "role": "backend",
+      "year": "2024",
+      "display": true,
+      "duration": "September 2024 - Present"
+    },
+    {
+      "id": 8,
+      "link": "",
+      "repoLink": "",
+      "thumbnail": "",
+      "mobileThumbnail": "",
+      "name": "Excel Health — Telehealth Platform Backend",
+      "description": "Architected a production-grade, microservices-based backend for a comprehensive telehealth application serving patients and medical personnel. Comprises four independently deployable services: a core API, a community forum microservice, an AWS Lambda email dispatcher, and an API Gateway JWT authorizer. Features a Gemini AI-powered symptom triage chatbot, Agora SDK video consultations, SOS emergency broadcasting, appointment booking with urgency triage, subscription tiers with wallet and referral rewards, real-time chat via Socket.io, and a multi-provider auth system (JWT, Google OAuth2, Apple Sign-In, TOTP 2FA). Deployed serverlessly via the Serverless Framework on AWS.",
+      "tools": ["typescript", "nodejs", "expressjs", "postgresql", "sequelize", "aws", "docker", "socketio", "agora-sdk", "google-gemini", "jwt", "google-oauth2", "aws-sqs", "aws-lambda", "aws-api-gateway", "serverless-framework"],
+      "tag": "Featured Project",
+      "role": "backend",
+      "year": "2026",
+      "display": true,
+      "duration": "December 2025 - May 2026"
+    },
+    {
+      "id": 7,
+      "link": "",
+      "repoLink": "",
+      "thumbnail": "",
+      "mobileThumbnail": "",
+      "name": "CHMAAS — Church Member Management & Automated Support System",
+      "description": "Built a production-grade multi-tenant SaaS platform for faith-based organizations to manage members, volunteer workers, and follow-up workflows. Organizations are fully isolated as tenants with their own branches, staff, and customizable member status workflows. Features automated task assignment via cron jobs, an event-driven email system decoupled through AWS SQS and Lambda, full audit trails for member status transitions, and role-based access control scoped per branch. Deployed across staging and production environments on AWS using Docker and GitHub Actions CI/CD.",
+      "tools": ["typescript", "nodejs", "expressjs", "postgresql", "sequelize", "aws", "docker", "github-actions", "jwt", "node-cron", "aws-sqs", "aws-lambda"],
+      "tag": "Featured Project",
+      "role": "backend",
+      "year": "2026",
+      "display": true,
+      "duration": "March 2026 - May 2026"
+    },
     {
       "id": 1,
       "link": "https://zedo.cc",
@@ -57,22 +131,7 @@
       "role": "Full stack Developer",
       "year": "2025",
       "display": true,
-      "duration":"April 2025 - Dec 2025"
-    },
-    {
-      "id": 2,
-      "link": "https://wandyte-book-sales.onrender.com",
-      "repoLink": "https://github.com/itsoluwatobby/gracie-books",
-      "thumbnail": "wandyte-book-sales.png",
-      "mobileThumbnail": "mobile-wandyte-book-sales.png",
-      "name": "Wandyte Book Sales — Online Bookstore Platform",
-      "description": "Developed a web-based book sales platform that allows users to browse available books and interact with product listings. Implemented core e-commerce features such as dynamic product display and user-friendly navigation. Handled application deployment and hosting on Render, showcasing hands-on experience in building and deploying production-ready web applications.",
-      "tools": ["reactjs", "tailwindcss", "nodejs", "firebase", "Web Hosting (Render)"],
-      "tag": "Personal Project",
-      "role": "fullstack",
-      "year": "2025",
-      "display": true,
-      "duration":"April 2025 - Nov 2025"
+      "duration": "April 2025 - December 2025"
     },
     {
       "id": 3,
@@ -87,22 +146,24 @@
       "role": "frontend",
       "year": "2025",
       "display": true,
-      "duration":"Dec 2024 - Feb 2025"
-    },
+      "duration": "December 2024 - February 2025"
+    }
+  ],
+  "moreProjects": [
     {
-      "id": 4,
-      "link": "https://khefue.com",
-      "repoLink": "",
-      "thumbnail": "",
-      "mobileThumbnail": "",
-      "name": "Khefue Inc",
-      "description": "Khefue is an ecommerce platform that enables users and partners (vendors) to buy/sell good and services like flight booking, bills payment, airtime, data plans, gift cards and also implemented a point reward-based system for purchases made on the platform.",
-      "tools": ["nodejs", "expressjs", "mysql", "sequelize", "azure", "docker", "node-cron", "typescript", "CI/CD", "joi-validation"],
-      "tag": "Featured Project",
-      "role": "backend",
-      "year": "2024",
+      "id": 2,
+      "link": "https://wandyte-book-sales.onrender.com",
+      "repoLink": "https://github.com/itsoluwatobby/gracie-books",
+      "thumbnail": "wandyte-book-sales.png",
+      "mobileThumbnail": "mobile-wandyte-book-sales.png",
+      "name": "Wandyte Book Sales — Online Bookstore Platform",
+      "description": "Developed a web-based book sales platform that allows users to browse available books and interact with product listings. Implemented core e-commerce features such as dynamic product display and user-friendly navigation. Handled application deployment and hosting on Render, showcasing hands-on experience in building and deploying production-ready web applications.",
+      "tools": ["reactjs", "tailwindcss", "nodejs", "firebase", "Web Hosting (Render)"],
+      "tag": "Personal Project",
+      "role": "fullstack",
+      "year": "2025",
       "display": true,
-      "duration":"Sept 2024 - Ongoing"
+      "duration": "April 2025 - November 2025"
     },
     {
       "id": 5,
@@ -113,11 +174,11 @@
       "name": "Revolving",
       "description": "Revolving is a platform that allows you to create and share your thoughts, ideas, and opinions with the world. You can also read and interact with other people's posts.",
       "tools": ["react", "socketio", "tailwindcss", "monaco-editor", "firebase"],
-      "tag": "Featured Project",
+      "tag": "Personal Project",
       "role": "fullstack",
       "year": "2023",
       "display": true,
-      "duration":"May 2023 - Oct 2023"
+      "duration": "May 2023 - October 2023"
     },
     {
       "id": 6,
@@ -126,18 +187,16 @@
       "thumbnail": "kingklass.png",
       "mobileThumbnail": "kingklass-mobile.png",
       "name": "KingKlass",
-      "description": "KingKlass is a fashion design platorm that connects fashion designers with their potential clients and also grants them the opportunity to showcase their crafts, manage orders and also track their business expenses.",
+      "description": "KingKlass is a fashion design platform that connects fashion designers with their potential clients and also grants them the opportunity to showcase their crafts, manage orders and also track their business expenses.",
       "tools": ["react", "typescript", "tailwindcss"],
       "role": "frontend",
-      "tag": "Featured Project",
+      "tag": "Personal Project",
       "year": "2024",
       "display": true,
-      "duration":"Feb 2024 - May 2024"
-    }
-  ],
-  "moreProjects": [
+      "duration": "February 2024 - May 2024"
+    },
     {
-      "id": 7,
+      "id": 23,
       "link": "https://oluwapelumi-et-oluwaseun.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/spa-wedding-platform",
       "thumbnail": "home.png",
@@ -149,10 +208,10 @@
       "role": "fullstack",
       "year": "2025",
       "display": true,
-      "duration":"Sept 2025"
+      "duration": "September 2025"
     },
     {
-      "id": 8,
+      "id": 24,
       "link": "http://lovely-audios.onrender.com",
       "repoLink": "https://github.com/itsoluwatobby/audio-book-server",
       "name": "Lovely Audios Server",
@@ -170,11 +229,11 @@
       "name": "KorRin",
       "description": "Korrin is an online platform for Hiring Your Favorite Artistes/Content Creators for Online Live Performance.",
       "tools": ["react", "tailwindcss", "aws IVS", "stripe"],
-      "tag": "Featured Project",
+      "tag": "Personal Project",
       "role": "frontend",
       "year": "2023",
       "display": true,
-      "duration":"June 2023"
+      "duration": "June 2023"
     },
     {
       "id": 10,
@@ -282,7 +341,7 @@
       "name": "Oluwatobi Akinola",
       "description": "My personal portfolio website, where I showcase my projects, skills, and experiences. You can also contact me through the contact form on the website.",
       "tools": ["react", "tailwindcss", "typescript"],
-      "tag": "Featured Project",
+      "tag": "Personal Project",
       "role": "frontend",
       "year": "2025",
       "display": true
@@ -294,7 +353,7 @@
       "name": "Olamikun24",
       "description": "Olamikun24 is a single page application I gifted to a friend as a wedding gift, it contains information about the couple, the wedding date, the wedding venue and also a contact form for well-wishers.",
       "tools": ["react", "firebase", "tailwindcss", "typescript"],
-      "tag": "Featured Project",
+      "tag": "Personal Project",
       "role": "frontend",
       "year": "2024",
       "display": true
@@ -306,7 +365,7 @@
       "name": "Contact Directory",
       "description": "Contact Directory is a platform that allows you to store and manage your contacts. You can add, edit, delete and search for contacts.",
       "tools": ["react", "firebase", "nodejs", "expressjs", "mongodb", "tailwindcss", "typescript"],
-      "tag": "Featured Project",
+      "tag": "Personal Project",
       "role": "fullstack",
       "year": "2024",
       "display": true
@@ -318,7 +377,7 @@
       "name": "Node Script",
       "description": "A collection of node scripts that I have written to automate some of my daily tasks, generating node server, installing dependencies, creating project structure etc. It supports both typescript and javascript.",
       "tools": ["bash scripting"],
-      "tag": "Featured Project",
+      "tag": "Personal Project",
       "role": "backend",
       "year": "2023",
       "display": true
@@ -326,14 +385,14 @@
   ],
   "aboutMe": {
     "info": [
-      "I’m Oluwatobi Akinola, a software developer passionate about transforming complex problems into elegant solutions. I’m eager to contribute to a community where I can make technology more accessible, impactful, and secure for everyone.",
-      "I build intuitive, user-friendly interfaces and implement robust server-side and client-side logic. I specialize in seamless integration of web applications with APIs and external libraries, as well as designing secure authentication systems and ensuring overall application security."
+      "I'm Oluwatobi Akinola, a backend engineer focused on building production-grade, cloud-native systems in Node.js and TypeScript. I specialise in scalable API design, event-driven architectures, and multi-tenant SaaS platforms — with hands-on experience across fintech, healthtech, and nonprofit software.",
+      "My work spans payment orchestration (Paystack, Fincra, VPAY), microservices on AWS (Lambda, SQS, API Gateway), real-time systems with Socket.io, and AI integrations with Google Gemini. I take ownership of the full backend lifecycle — from architecture and data modelling through to deployment, security, and observability."
     ],
-    "technologies": ["Javascript", "Typescript", "React", "Tailwindcss", "Python", "Fastapi", "Nodejs", "Redis", "Websockets", "GraphQL", "Databases (MySQL, Postgresql, MongoDB)", "Cloud Platforms (AWS, GCP and Azure)"],
+    "technologies": ["Javascript", "Typescript", "Node.js", "Express.js", "PostgreSQL", "MySQL", "MongoDB", "Redis", "React", "Tailwindcss", "Python", "Socket.io", "Docker", "AWS", "Azure", "GraphQL"],
     "activityUpdates": [
       {
         "id": 1,
-        "content": "I’ve developed a strong interest in API security and am currently taking certification courses with APISEC to deepen my understanding and strengthen my practical skills in designing and securing robust APIs.",
+        "content": "I've developed a strong interest in API security and am currently taking certification courses with APISEC to deepen my understanding and strengthen my practical skills in designing and securing robust APIs.",
         "date": "2025-11-15"
       },
       {
@@ -365,17 +424,17 @@
     {
       "id": 1,
       "status": "Balanced & Professional",
-      "content": "I’m currently open to new opportunities and always happy to connect. Whether you have a question or a potential opportunity, feel free to reach out—I’ll be glad to respond."
+      "content": "I'm currently open to new opportunities and always happy to connect. Whether you have a question or a potential opportunity, feel free to reach out—I'll be glad to respond."
     },
     {
       "id": 2,
       "status": "More Warm & Approachable",
-      "content": "I’m open to new opportunities and my inbox is always open. Whether you have a question or an opportunity to discuss, I’d be happy to connect and will get back to you promptly."
+      "content": "I'm open to new opportunities and my inbox is always open. Whether you have a question or an opportunity to discuss, I'd be happy to connect and will get back to you promptly."
     },
     {
       "id": 3,
       "status": "Confident & Direct",
-      "content": "I’m actively exploring new opportunities and welcome conversations. Feel free to reach out with questions or opportunities—I’m always open to connecting."
+      "content": "I'm actively exploring new opportunities and welcome conversations. Feel free to reach out with questions or opportunities—I'm always open to connecting."
     }
   ]
 }

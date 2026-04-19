@@ -58,7 +58,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
               {
                 project?.tools.map((tool) => (
                   <span key={tool}
-                  className='capitalize relative after:absolute after:-right-1 hover:underline underline-offset-2 transition-transform text-cyan-200 after:content["|"]'
+                  className="capitalize relative after:absolute after:-right-1 hover:underline underline-offset-2 transition-transform text-cyan-200 after:content-['|']"
                   >{tool}</span>
                 ))
               }

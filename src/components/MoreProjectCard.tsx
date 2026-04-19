@@ -54,7 +54,7 @@ export default function MoreProjectCard({ project }: ProjectCardProps) {
         {
           project?.tools.map((tool) => (
             <span key={tool}
-              className={`capitalize relative after:absolute after:-right-1 hover:underline underline-offset-2 transition-transform ${hover ? 'text-cyan-300' : 'text-slate-400'} after:content["jvmmb"]`}
+              className={`capitalize relative after:absolute after:-right-1 hover:underline underline-offset-2 transition-transform ${hover ? 'text-cyan-300' : 'text-slate-400'} after:content-['|']`}
             >{tool}</span>
           ))
         }
