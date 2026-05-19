@@ -8,6 +8,7 @@ import { Colors } from './utils/colors';
 import { useState } from 'react';
 import Projects from './pages/Projects';
 import { useIntersectionObserver } from './hooks';
+import { MetaTags } from './layout/OGgraph';
 
 function App() {
   const { theme, appInfo } = useAppContext();
@@ -16,8 +17,16 @@ function App() {
     { screenPosition: '0px', threshold: 0.9 },
   );
 
+  const BASE_URL = 'https://oluwatobiakinola-v1.onrender.com';
+
   return (
     <main className={`customScrollBar page-fade-in ${theme === 'light' ? 'bg-white' : `${Colors.navy} text-white`} w-full h-screen flex flex-col transition-colors overflow-y-scroll`}>
+      <MetaTags
+        title="Oluwatobi Akinola — Full Stack Engineer"
+        description="Full Stack Engineer specialising in production-grade Node.js/TypeScript backends, cloud-native architectures on AWS and Azure, and responsive React interfaces across fintech, healthtech, and SaaS."
+        url={BASE_URL}
+        image={`${BASE_URL}/og-image.svg`}
+      />
       <Header appName={appInfo.name} toggle={toggle} setToggle={setToggle} />
       <Modal toggle={toggle} setToggle={setToggle} />
 

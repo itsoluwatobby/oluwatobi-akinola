@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0f172a"/>
+
+  <!-- Subtle grid -->
+  <line x1="0" y1="315" x2="1200" y2="315" stroke="#1e293b" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="#1e293b" stroke-width="1"/>
+  <line x1="0" y1="157" x2="1200" y2="157" stroke="#1e293b" stroke-width="0.5" opacity="0.5"/>
+  <line x1="0" y1="472" x2="1200" y2="472" stroke="#1e293b" stroke-width="0.5" opacity="0.5"/>
+  <line x1="300" y1="0" x2="300" y2="630" stroke="#1e293b" stroke-width="0.5" opacity="0.5"/>
+  <line x1="900" y1="0" x2="900" y2="630" stroke="#1e293b" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Left cyan accent bar -->
+  <rect x="0" y="0" width="6" height="630" fill="#22d3ee"/>
+
+  <!-- Top-right corner bracket -->
+  <path d="M1130 60 L1170 60 L1170 100" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Bottom-left corner bracket -->
+  <path d="M70 570 L30 570 L30 530" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- OA monogram block (top-left) -->
+  <rect x="60" y="56" width="72" height="72" rx="10" fill="#1e293b" stroke="#22d3ee" stroke-width="1.5"/>
+  <text x="96" y="108" font-family="'Courier New', Courier, monospace" font-size="36" font-weight="700" fill="#e2e8f0" text-anchor="middle">OA</text>
+
+  <!-- Name -->
+  <text x="60" y="210" font-family="Georgia, 'Times New Roman', serif" font-size="68" font-weight="700" fill="#f1f5f9" letter-spacing="-1">Oluwatobi Akinola</text>
+
+  <!-- Cyan underline beneath name -->
+  <line x1="60" y1="228" x2="680" y2="228" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Role / headline -->
+  <text x="60" y="288" font-family="'Courier New', Courier, monospace" font-size="26" fill="#22d3ee" letter-spacing="0.5">Full Stack Engineer</text>
+
+  <!-- Description line 1 -->
+  <text x="60" y="346" font-family="Arial, sans-serif" font-size="22" fill="#94a3b8">Node.js · TypeScript · React · PostgreSQL · AWS · Azure</text>
+
+  <!-- Description line 2 -->
+  <text x="60" y="386" font-family="Arial, sans-serif" font-size="20" fill="#64748b">Fintech · Healthtech · SaaS · Multi-tenant Platforms · Real-time Systems</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="430" x2="1140" y2="430" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Bottom links row -->
+  <text x="60" y="470" font-family="'Courier New', Courier, monospace" font-size="18" fill="#475569">github.com/itsoluwatobby</text>
+  <text x="60" y="500" font-family="'Courier New', Courier, monospace" font-size="18" fill="#475569">linkedin.com/in/oluwatobi-akinola</text>
+
+  <!-- Website URL (bottom right) -->
+  <text x="1140" y="500" font-family="'Courier New', Courier, monospace" font-size="18" fill="#22d3ee" text-anchor="end">oluwatobiakinola-v1.onrender.com</text>
+
+  <!-- Bottom-right decorative brackets -->
+  <text x="1050" y="590" font-family="'Courier New', Courier, monospace" font-size="32" fill="#1e3a4a" opacity="0.8">&lt;/&gt;</text>
+</svg>

@@ -1,5 +1,5 @@
 {
-  "title": "Backend engineer specialising in production-grade Node.js/TypeScript systems — multi-tenant SaaS, payment integrations, AI-powered services, and cloud-native architectures on AWS and Azure.",
+  "title": "Full Stack Engineer building end-to-end production systems — scalable Node.js/TypeScript backends, cloud-native architectures on AWS and Azure, and responsive React interfaces across fintech, healthtech, and SaaS.",
   "workDetails": [
     {
       "id": 1,
@@ -24,9 +24,9 @@
       "duration": "January 2024 - Present",
       "stack": ["nextjs", "tailwindcss", "aws", "nodejs", "websocket", "docker", "expressjs", "postgresql", "mongodb"],
       "content": [
-        "Built core backend services for a cross-border payment platform, integrating live exchange rate feeds from third-party providers and handling multi-currency transaction flows with accuracy and reliability.",
-        "Developed backend infrastructure for an influencer-brand collaboration platform acting as a secure escrow payment gateway, enabling milestone-based fund releases and driving visibility for micro-influencers.",
-        "Contributed to a full-stack financial management app with real-time bi-directional sync via WebSocket, handling user account management, unique shareable IDs, and collaborative features across a cross-functional team."
+        "Built full-stack features for a cross-border payment platform — backend services integrating live exchange rate feeds and multi-currency transaction flows, paired with a Next.js frontend for transaction history, wallet management, and real-time rate display.",
+        "Developed backend infrastructure and contributed frontend components for an influencer-brand collaboration platform serving as a secure escrow payment gateway, enabling milestone-based fund releases and driving visibility for micro-influencers.",
+        "Contributed across the full stack of a financial management app — WebSocket-powered real-time sync on the backend and collaborative React UI features on the frontend, including user account management and unique shareable IDs."
       ]
     },
     {
@@ -47,7 +47,7 @@
       "role": "Backend Engineer",
       "name": "CHMAAS",
       "workPlace": "CHMAAS",
-      "duration": "Mar. 2026 - May 2026",
+      "duration": "March 2026 - May 2026",
       "stack": ["typescript", "nodejs", "expressjs", "postgresql", "sequelize", "aws", "docker", "github-actions", "jwt", "node-cron", "aws-sqs", "aws-lambda"],
       "content": [
         "Architected a multi-tenant SaaS platform for faith-based organizations with full tenant isolation using shared-schema tenantId-based data partitioning across 13+ relational models and hierarchical branch structures.",
@@ -125,10 +125,10 @@
       "thumbnail": "zedo.png",
       "mobileThumbnail": "zedo-mobile.png",
       "name": "Zedo — AI-Driven Real Estate Platform",
-      "description": "Contributed to the development of Zedo, an AI-enabled real estate platform aimed at simplifying property search and management. Built core features to enhance user experience for agents, landlords, and property seekers, integrating responsive UI components and real-world search interactions. Managed deployment and continuous updates to ensure a functional online presence. This project highlights practical experience in designing user-focused web applications and handling live deployment workflows.",
-      "tools": ["vue", "python", "langchain", "chat integration (Whatsapp)", "nodejs - (Nestjs)", "tailwindcss", "AI"],
+      "description": "Full-stack contributor on Zedo, an AI-enabled real estate platform for agents, landlords, and property seekers. Built responsive Vue.js UI components for property search and listings, and integrated LangChain-powered AI features alongside a WhatsApp chat integration for lead engagement. Developed backend services with NestJS and Python, and managed deployment and continuous delivery to keep the platform live and up to date.",
+      "tools": ["vue", "python", "langchain", "whatsapp-api", "nestjs", "tailwindcss", "AI"],
       "tag": "Featured Project",
-      "role": "Full stack Developer",
+      "role": "fullstack",
       "year": "2025",
       "display": true,
       "duration": "April 2025 - December 2025"
@@ -140,7 +140,7 @@
       "thumbnail": "core-infra.png",
       "mobileThumbnail": "core-infra-mobile.png",
       "name": "Financial — Infrastructure Dashboard",
-      "description": "Built a web-based infrastructure dashboard with a responsive interface for interacting with system data. Handled end-to-end development and deployment, demonstrating practical experience in full-stack development and cloud hosting.",
+      "description": "Built a responsive financial infrastructure dashboard in React with real-time data visualisations powered by Recharts. Designed interactive charts, metric cards, and filtering UI for monitoring system and financial health indicators. Handled full frontend architecture and deployment, demonstrating production-ready React development skills including performance optimisation and Tailwind-based design systems.",
       "tools": ["react", "tailwindcss", "recharts"],
       "tag": "Featured Project",
       "role": "frontend",
@@ -152,7 +152,7 @@
   "moreProjects": [
     {
       "id": 2,
-      "link": "https://wandyte-book-sales.onrender.com",
+      "link": "https://www.booksales.wandyte.com",
       "repoLink": "https://github.com/itsoluwatobby/gracie-books",
       "thumbnail": "wandyte-book-sales.png",
       "mobileThumbnail": "mobile-wandyte-book-sales.png",
@@ -385,10 +385,10 @@
   ],
   "aboutMe": {
     "info": [
-      "I'm Oluwatobi Akinola, a backend engineer focused on building production-grade, cloud-native systems in Node.js and TypeScript. I specialise in scalable API design, event-driven architectures, and multi-tenant SaaS platforms — with hands-on experience across fintech, healthtech, and nonprofit software.",
-      "My work spans payment orchestration (Paystack, Fincra, VPAY), microservices on AWS (Lambda, SQS, API Gateway), real-time systems with Socket.io, and AI integrations with Google Gemini. I take ownership of the full backend lifecycle — from architecture and data modelling through to deployment, security, and observability."
+      "I'm Oluwatobi Akinola, a full stack engineer who builds complete, production-grade systems — from scalable Node.js/TypeScript APIs and cloud-native backends to responsive React and Vue interfaces. I specialise in multi-tenant SaaS platforms, event-driven architectures, and real-time applications, with hands-on delivery across fintech, healthtech, and nonprofit software.",
+      "On the backend I own the full lifecycle: API design, data modelling, payment orchestration (Paystack, Fincra, VPAY), microservices on AWS (Lambda, SQS, API Gateway), and AI integrations (Google Gemini). On the frontend I build performant, accessible UIs with React, Next.js, and Tailwind CSS — ensuring the user experience is as solid as the infrastructure behind it."
     ],
-    "technologies": ["Javascript", "Typescript", "Node.js", "Express.js", "PostgreSQL", "MySQL", "MongoDB", "Redis", "React", "Tailwindcss", "Python", "Socket.io", "Docker", "AWS", "Azure", "GraphQL"],
+    "technologies": ["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Express.js", "PostgreSQL", "MongoDB", "Redis", "Socket.io", "Tailwindcss", "Docker", "AWS", "Azure", "GraphQL", "Python"],
     "activityUpdates": [
       {
         "id": 1,
@@ -417,7 +417,7 @@
       "thumbnail": "/images/golang.png",
       "date": "Nov 2025",
       "display": false,
-      "link": "https://example.com/certificate/golang"
+      "link": ""
     }
   ],
   "whatNextOpenStatus": [

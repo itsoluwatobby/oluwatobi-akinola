@@ -42,7 +42,7 @@ export default function About() {
               ))
             }
 
-            <div className="flex flex-col gap-1.5 w-full whitespace-nowrap textpretty text-gray-400">
+            <div className="flex flex-col gap-1.5 w-full whitespace-nowrap text-pretty text-gray-400">
               <p className="flex items-center flex-nowrap font-mono">
                 <MdOutlineArrowRight className="text-cyan-500 flex-none text-xl mobile:text-base" />
                 {data.aboutMe.technologies?.at(-2)}
@@ -57,9 +57,9 @@ export default function About() {
         </div>
 
         <div className="flex flex-col gap-y-6">
-          <Title bullet="" page='Current endeavours' />
+          <Title bullet="" page='Current Endeavours' />
           <div className='text-slate-300 text-sm flex flex-col md:p-6 md:m-auto gap-y-5 leading-7 tracking-wide'>
-            <ul className="list-itemlist-disc">
+            <ul className="list-disc">
             {
               data.aboutMe.activityUpdates.sort((a,b) => b.date.localeCompare(a.date)).map((update) => (
                 <li 

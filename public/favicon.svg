@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background -->
+  <rect width="64" height="64" rx="12" fill="#0f172a"/>
+
+  <!-- Subtle grid lines for a "code / terminal" feel -->
+  <line x1="0" y1="32" x2="64" y2="32" stroke="#1e293b" stroke-width="1"/>
+  <line x1="32" y1="0" x2="32" y2="64" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Cyan bracket left -->
+  <path d="M10 20 L4 32 L10 44" stroke="#22d3ee" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Cyan bracket right -->
+  <path d="M54 20 L60 32 L54 44" stroke="#22d3ee" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Initials: O -->
+  <text
+    x="14"
+    y="43"
+    font-family="'Courier New', Courier, monospace"
+    font-size="26"
+    font-weight="700"
+    fill="#e2e8f0"
+    letter-spacing="-1"
+  >OA</text>
+
+  <!-- Cyan underline accent -->
+  <line x1="14" y1="48" x2="50" y2="48" stroke="#22d3ee" stroke-width="2" stroke-linecap="round"/>
+</svg>
