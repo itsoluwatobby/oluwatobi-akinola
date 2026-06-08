@@ -17,7 +17,7 @@ function App() {
     { screenPosition: '0px', threshold: 0.9 },
   );
 
-  const BASE_URL = 'https://oluwatobiakinola-v1.onrender.com';
+  const BASE_URL = 'https://oluwatobiakinola.tech';
 
   return (
     <main className={`customScrollBar page-fade-in ${theme === 'light' ? 'bg-white' : `${Colors.navy} text-white`} w-full h-screen flex flex-col transition-colors overflow-y-scroll`}>

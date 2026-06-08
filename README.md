@@ -2,7 +2,7 @@
 
 Personal portfolio website for Oluwatobi Akinola, a Full Stack Engineer specialising in production-grade Node.js/TypeScript backends, cloud-native architectures (AWS & Azure), and responsive React interfaces across fintech, healthtech, and SaaS.
 
-**Live site:** [oluwatobiakinola-v1.onrender.com](https://oluwatobiakinola-v1.onrender.com)
+**Live site:** [oluwatobiakinola.tech](https://oluwatobiakinola.tech)
 
 ---
 

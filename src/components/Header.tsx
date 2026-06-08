@@ -22,9 +22,13 @@ export default function Header({ appName, toggle, setToggle }: HeaderProps) {
   }
 
   return (
-    <header className={`sticky top-0 w-full pl-1 pr-4 pt-7 pb-4 ${Colors.navy} flex items-center justify-between h-20 z-20 shadow-md transition-transform lg:px-10`}>
+    <header className={`sticky top-0 w-full pl-7 pr-4 pt-7 pb-4 ${Colors.navy} flex items-center justify-between h-20 z-20 shadow-md transition-transform lg:px-10`}>
       <Link to='/'  className='relative'>
-        <svg width="63" height="58"
+      <img src="/favicon.svg" alt="" 
+      className='size-16'
+          onMouseEnter={modifyHoverCount}
+      />
+        {/* <svg width="63" height="58"
           onMouseEnter={modifyHoverCount}
           className={`absolute transition-transform cursor-pointer ${hoverEffects[hoverIndex]}`}
           xmlns="http://www.w3.org/2000/svg">
@@ -36,7 +40,7 @@ export default function Header({ appName, toggle, setToggle }: HeaderProps) {
         <svg width="100" height="80" xmlns="http://www.w3.org/2000/svg">
           <polygon points="41,11 60,22 60,46 42,55 22,46 22,22"
             fill='#a5f3fc' stroke="#a5f3fc" strokeWidth="2.5" />
-        </svg>
+        </svg> */}
       </Link>
 
       {

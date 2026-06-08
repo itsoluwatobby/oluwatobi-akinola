@@ -45,7 +45,7 @@
   <text x="60" y="500" font-family="'Courier New', Courier, monospace" font-size="18" fill="#475569">linkedin.com/in/oluwatobi-akinola</text>
 
   <!-- Website URL (bottom right) -->
-  <text x="1140" y="500" font-family="'Courier New', Courier, monospace" font-size="18" fill="#22d3ee" text-anchor="end">oluwatobiakinola-v1.onrender.com</text>
+  <text x="1140" y="500" font-family="'Courier New', Courier, monospace" font-size="18" fill="#22d3ee" text-anchor="end">https://oluwatobiakinola.tech</text>
 
   <!-- Bottom-right decorative brackets -->
   <text x="1050" y="590" font-family="'Courier New', Courier, monospace" font-size="32" fill="#1e3a4a" opacity="0.8">&lt;/&gt;</text>
