@@ -7,7 +7,7 @@ type WorkDetailsProps = {
 export default function WorkDetails({ work, prevId }: WorkDetailsProps) {
 
   return (
-    <article className={`${prevId === work.id ? 'content-changed' : ''} flex flex-col md:m-auto gap-y-5`}>
+    <article className={`${prevId === work.id ? 'content-changed' : ''} flex flex-col gap-y-5 w-full min-w-0`}>
       <div className="flex flex-col gap-2">
         <h5 className="text-lg text-slate-200 font-medium leading-5">{work?.role} <span className="text-cyan-300 capitalize">@ {work?.workPlace}</span></h5>
         <span className="text-slate-400 text-sm font-mono">{work?.duration}</span>

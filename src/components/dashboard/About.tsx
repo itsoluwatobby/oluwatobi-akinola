@@ -1,6 +1,6 @@
 import { MdOutlineArrowRight } from "react-icons/md";
 import Title from "../Title";
-import Profile from './Profile';
+// import Profile from './Profile';
 import data from "../../data/data.json";
 
 export default function About() {
@@ -77,7 +77,7 @@ export default function About() {
       </div>
 
 
-      <Profile />
+      {/* <Profile /> */}
 
     </section>
   )

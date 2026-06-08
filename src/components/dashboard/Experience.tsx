@@ -22,14 +22,14 @@ export default function Experience() {
   return (
     <section
       id='experience'
-      className=" h[87vh] pt-10 pb-20 mb-0 mx-auto flex flex-col gap-y-6 lg:w-[80%]"
+      className="pt-10 pb-20 mb-0 mx-auto flex flex-col gap-y-6 w-full lg:w-[80%] overflow-hidden"
     >
       <Title bullet="02" page='Where I&apos;ve Worked' />
 
       <div
         className="pl-5 flex sm:flex-row flex-col items-start sm:gap-3 gap-y-6"
       >
-        <div className="sm:border-0 border-b-2 border-b-slate-600 text-slate-400 flex sm:flex-col sm:items-start justify-between items-center h-fit sm:w-fit w-full">
+        <div className="sm:border-0 border-b-2 border-b-slate-600 text-slate-400 flex sm:flex-col sm:items-start items-center h-fit sm:w-fit w-full maxMobile:overflow-x-auto shrink-0">
           {
             data.workDetails?.map((place) => (
               <button
