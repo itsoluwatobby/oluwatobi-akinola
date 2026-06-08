@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useState } from 'react'
 import { helper, ModalTags, hoverEffects, Applinks } from '../utils';
 import { Colors } from '../utils/colors';
@@ -13,20 +14,20 @@ type HeaderProps = {
 }
 // 50,10 75,25 75,55 50,68 25,55 25,25
 export default function Header({ appName, toggle, setToggle }: HeaderProps) {
-  const [hoverIndex, setHoverIndex] = useState(0);
+  // const [hoverIndex, setHoverIndex] = useState(0);
   const { pathname } = useLocation();
 
-  const modifyHoverCount = () => {
-    const randomIndex = Math.floor(Math.random() * hoverEffects.length);
-    setHoverIndex(randomIndex);
-  }
+  // const modifyHoverCount = () => {
+  //   const randomIndex = Math.floor(Math.random() * hoverEffects.length);
+  //   setHoverIndex(randomIndex);
+  // }
 
   return (
     <header className={`sticky top-0 w-full pl-7 pr-4 pt-7 pb-4 ${Colors.navy} flex items-center justify-between h-20 z-20 shadow-md transition-transform lg:px-10`}>
       <Link to='/'  className='relative'>
       <img src="/favicon.svg" alt="" 
       className='size-16'
-          onMouseEnter={modifyHoverCount}
+          // onMouseEnter={modifyHoverCount}
       />
         {/* <svg width="63" height="58"
           onMouseEnter={modifyHoverCount}

@@ -25,7 +25,7 @@ function App() {
         title="Oluwatobi Akinola — Full Stack Engineer"
         description="Full Stack Engineer specialising in production-grade Node.js/TypeScript backends, cloud-native architectures on AWS and Azure, and responsive React interfaces across fintech, healthtech, and SaaS."
         url={BASE_URL}
-        image={`${BASE_URL}/og-image.svg`}
+        image={`${BASE_URL}/og-image.png`}
       />
       <Header appName={appInfo.name} toggle={toggle} setToggle={setToggle} />
       <Modal toggle={toggle} setToggle={setToggle} />
