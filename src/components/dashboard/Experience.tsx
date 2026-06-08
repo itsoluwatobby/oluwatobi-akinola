@@ -29,7 +29,7 @@ export default function Experience() {
       <div
         className="pl-5 flex sm:flex-row flex-col items-start sm:gap-3 gap-y-6"
       >
-        <div className="sm:border-0 border-b-2 border-b-slate-600 text-slate-400 flex sm:flex-col sm:items-start items-center h-fit sm:w-fit w-full maxMobile:overflow-x-auto shrink-0">
+        <div className="sm:border-0 border-b-2 border-b-slate-600 text-slate-400 flex sm:flex-col sm:items-start items-center h-fit sm:w-fit w-full maxMobile:gap-x-5 maxMobile:overflow-x-auto shrink-0">
           {
             data.workDetails?.map((place) => (
               <button
