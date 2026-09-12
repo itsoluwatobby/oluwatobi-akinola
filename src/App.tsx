@@ -20,7 +20,8 @@ function App() {
   const BASE_URL = 'https://oluwatobiakinola.tech';
 
   return (
-    <main className={`customScrollBar page-fade-in ${theme === 'light' ? 'bg-white' : `${Colors.navy} text-white`} w-full h-screen flex flex-col transition-colors overflow-y-scroll`}>
+    // <main className={`customScrollBar page-fade-in ${theme === 'light' ? 'bg-white' : `${Colors.navy} text-white`} w-full h-screen flex flex-col transition-colors overflow-y-scroll`}>
+    <main className={`customScrollBar page-fade-in ${Colors.navy} text-white w-full h-screen flex flex-col transition-colors overflow-y-scroll`}>
       <MetaTags
         title="Oluwatobi Akinola — Full Stack Engineer"
         description="Full Stack Engineer specialising in production-grade Node.js/TypeScript backends, cloud-native architectures on AWS and Azure, and responsive React interfaces across fintech, healthtech, and SaaS."
