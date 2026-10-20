@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Route, Routes } from 'react-router-dom';
 import AppLayout from './layout/AppLayout';
 import Dashboard from './pages/Dashboard';
